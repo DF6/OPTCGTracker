@@ -1,0 +1,35 @@
+.pill-list-item {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 16px;
+    margin-top:8px;
+  }
+  .pill-list-item input[type="checkbox"] {
+    display: none;
+  }
+  .pill-list-item input[type="checkbox"]:checked + .pill-list-label {
+    background-color: #29cc5f;
+    border: 1px solid #29cc5f;
+    color: #fff;
+  }
+  .pill-list-label {
+    border: 1px solid #29cc5f;
+    border-radius: 20px;
+    color: black;
+    display: block;
+    padding: 7px 28px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .pill-list-item
+    input[type="checkbox"]:checked
+    + .pill-list-label
+    .Icon--checkLight {
+    display: inline-block;
+  }
+  .pill-list-item input[type="checkbox"]:checked + .pill-list-label .Icon--addLight,
+  .pill-list-label .Icon--checkLight,
+  .pill-list-children {
+    display: none;
+  }

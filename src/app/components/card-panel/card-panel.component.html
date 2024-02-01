@@ -1,0 +1,22 @@
+<a class="card card-data">
+    <h2>{{card.name}} - {{card.code}}</h2>
+    <img src="{{card.image}}" width="200" height="280"/>
+    <div class="control-panel">
+        <label class="pill-list-item">
+            <input type="checkbox" class="{{card.code}}" ng-value="card.collection" (change)="changeCollection()" #collectionInput/>
+            <span class="pill-list-label">Colección</span>
+        </label>
+        <div>
+            <section class="card-labels">
+                <span class="data-labels">
+                    <span class="title">Stock</span>
+                    <input type="number" width="20" ng-value="card.stock" (change)="changeStock()" #stockInput/>
+                </span>
+                <span class="data-labels">
+                    <span class="title-2">Precio</span>
+                    <input type="number" width="20" ng-value="card.price" (change)="changePrice()" #priceInput/>€
+                </span>
+            </section>
+        </div>
+    </div>
+</a>
