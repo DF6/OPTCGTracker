@@ -62,7 +62,7 @@ export class AppComponent implements OnInit{
     };
     this.data.forEach((card: any) => {
       this.estimatedValue.noCollection += card.price * card.stock;
-      card.collection ? this.estimatedValue.withCollection += card.price * (card.stock + 1) : this.estimatedValue.withCollection += card.price * card.stock;
+      card.collection ? this.estimatedValue.withCollection += card.price * (parseInt(card.stock) + 1) : this.estimatedValue.withCollection += card.price * card.stock;
     })
     this.estimatedValue.noCollection = Number(this.estimatedValue.noCollection.toFixed(2));
     this.estimatedValue.withCollection = Number(this.estimatedValue.withCollection.toFixed(2));
@@ -87,7 +87,8 @@ export class AppComponent implements OnInit{
     this.saveData(savingData, 'cardData.json');
   }
 
-  toggleFilter(filterToggled: string) {
+  toggleFilter(filterToggled: string, ev: any) {
+    ev.target.classList.value === 'card selected' ? ev.target.classList.value = 'card' : ev.target.classList.value = 'card selected';
     this.filters[filterToggled] = !this.filters[filterToggled];
     this.data.forEach((card: any) => {
       this.filterCard(card);
@@ -158,6 +159,7 @@ export class AppComponent implements OnInit{
           case 'SR':
           case 'SEC':
           case 'L':
+          case 'DON':
             if (response && card.rarity !== filterKey) {
               response = false;
               discarded = true;
@@ -173,12 +175,25 @@ export class AppComponent implements OnInit{
           case 'championship':
           case 'manga':
           case 'wanted':
+          case 'disney':
+          case 'ugly':
+          case 'oda':
+          case 'japan':
+          case 'stp':
             if (response && !(card.special && card.specialDescription.includes(filterKey))) {
               response = false;
               discarded = true;
             };
             if (!response && card.special && card.specialDescription.includes(filterKey)) { response = true };
             if (!response && !(card.special && card.specialDescription.includes(filterKey))) { discarded = true };
+            break;
+          case 'noAA':
+            if (response && card.special) {
+              response = false;
+              discarded = true;
+            };
+            if (!response && !card.special) { response = true };
+            if (!response && card.special) { discarded = true };
             break;
         }
       }

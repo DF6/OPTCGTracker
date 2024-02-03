@@ -77,6 +77,14 @@
     margin-top: 16px;
   }
 
+  .button-size {
+    margin-top: 0;
+  }
+
+  .button-comp {
+    margin-bottom: 0 !important;
+  }
+
   .card {
     all: unset;
     border-radius: 4px;
@@ -99,6 +107,11 @@
     cursor: pointer;
     margin-top:16px;
     padding: 8px;
+    font-weight: 600;
+  }
+
+  .selected {
+    color: #4eb135;
     font-weight: 600;
   }
 
