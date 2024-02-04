@@ -160,6 +160,7 @@ export class AppComponent implements OnInit{
           case 'SEC':
           case 'L':
           case 'DON':
+          case 'P':
             if (response && card.rarity !== filterKey) {
               response = false;
               discarded = true;
@@ -168,7 +169,6 @@ export class AppComponent implements OnInit{
             if (!response && card.rarity !== filterKey) { discarded = true };
             break;
           case 'alternative':
-          case 'promo':
           case 'judge':
           case 'boxtopper':
           case 'prerelease':
@@ -180,6 +180,13 @@ export class AppComponent implements OnInit{
           case 'oda':
           case 'japan':
           case 'stp':
+          case 'premium':
+          case 'winner':
+          case 'reprint':
+          case 'limited':
+          case 'regional':
+          case '04dash':
+          case 'store':
             if (response && !(card.special && card.specialDescription.includes(filterKey))) {
               response = false;
               discarded = true;

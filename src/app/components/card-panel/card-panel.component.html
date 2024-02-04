@@ -1,6 +1,6 @@
 <a class="card card-data">
     <h2>{{card.name}} - {{card.code}}</h2>
-    <img src="{{card.image}}" width="200" height="280"/>
+    <img src="{{card.image}}" width="200" height="280" loading="lazy"/>
     <div class="control-panel">
         <label class="pill-list-item">
             <input type="checkbox" class="{{card.code}}" ng-value="card.collection" (change)="changeCollection()" #collectionInput/>

@@ -23,6 +23,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP01-001C":{
+        "code": "OP01-001C",
+        "name": "Roronoa Zoro",
+        "rarity": "L",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-001C.jpg",
+        "price": 18,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
     "OP01-002": {
         "code": "OP01-002",
         "name": "Trafalgar Law",
@@ -83,6 +95,54 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-004B": {
+        "code": "OP01-004B",
+        "name": "Usopp R",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-004B.jpg",
+        "price": 0.23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "OP01-004C": {
+        "code": "OP01-004C",
+        "name": "Usopp",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-004C.jpg",
+        "price": 590,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship treasure "
+    },
+    "OP01-004D": {
+        "code": "OP01-004D",
+        "name": "Usopp",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-004D.jpg",
+        "price": 160,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3 "
+    },
+    "OP01-004E": {
+        "code": "OP01-004E",
+        "name": "Usopp",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-004E.jpg",
+        "price": 1100,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3 winner "
+    },
     "OP01-005": {
         "code": "OP01-005",
         "name": "Uta",
@@ -95,6 +155,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-005B": {
+        "code": "OP01-005B",
+        "name": "Uta",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-005B.jpg",
+        "price": 1.47,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "OP01-005C": {
+        "code": "OP01-005C",
+        "name": "Uta R",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-005C.jpg",
+        "price": 0.19,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "OP01-005D": {
+        "code": "OP01-005D",
+        "name": "Uta",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-005D.jpg",
+        "price": 4.25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "OP01-006": {
         "code": "OP01-006",
         "name": "Otama",
@@ -106,6 +202,90 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-006B": {
+        "code": "OP01-006B",
+        "name": "Otama",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006B.jpg",
+        "price": 9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP01-006C": {
+        "code": "OP01-006C",
+        "name": "Otama ONL REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006C.jpg",
+        "price": 100,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "OP01-006D": {
+        "code": "OP01-006D",
+        "name": "Otama ONL REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006D.jpg",
+        "price": 144.72,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "OP01-006E": {
+        "code": "OP01-006E",
+        "name": "Otama ONL REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006E.jpg",
+        "price": 185000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "OP01-006F": {
+        "code": "OP01-006F",
+        "name": "Otama OFF REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006C.jpg",
+        "price": 78.38,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "OP01-006G": {
+        "code": "OP01-006G",
+        "name": "Otama OFF REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006D.jpg",
+        "price": 180,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "OP01-006H": {
+        "code": "OP01-006H",
+        "name": "Otama OFF REG",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-006E.jpg",
+        "price": 185000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
     },
     "OP01-007": {
         "code": "OP01-007",
@@ -215,6 +395,42 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP01-013C": {
+        "code": "OP01-013C",
+        "name": "Sanji",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-013C.jpg",
+        "price": 6,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "OP01-013D": {
+        "code": "OP01-013D",
+        "name": "Sanji R",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-013D.jpg",
+        "price": 1.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "OP01-013E": {
+        "code": "OP01-013E",
+        "name": "Sanji",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-013E.jpg",
+        "price": 6.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "OP01-014": {
         "code": "OP01-014",
         "name": "Jinbe",
@@ -226,6 +442,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-014B": {
+        "code": "OP01-014B",
+        "name": "Jinbe",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-014B.jpg",
+        "price": 0.45,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
     },
     "OP01-015": {
         "code": "OP01-015",
@@ -287,6 +515,42 @@
         "special": true,
         "specialDescription": "alternative starter"
     },
+    "OP01-016E": {
+        "code": "OP01-016E",
+        "name": "Nami",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-016E.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "OP01-016F": {
+        "code": "OP01-016F",
+        "name": "Nami R",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-016F.jpg",
+        "price": 0.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "OP01-016G": {
+        "code": "OP01-016G",
+        "name": "Nami",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-016G.jpg",
+        "price": 19,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "OP01-017": {
         "code": "OP01-017",
         "name": "Nico Robin",
@@ -298,6 +562,30 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-017B": {
+        "code": "OP01-017B",
+        "name": "Nico Robin",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-017B.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "OP01-017C": {
+        "code": "OP01-017C",
+        "name": "Nico Robin",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-017C.jpg",
+        "price": 23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "OP01-018": {
         "code": "OP01-018",
@@ -347,6 +635,66 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-021B": {
+        "code": "OP01-021B",
+        "name": "Franky",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-021B.jpg",
+        "price": 0.85,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "OP01-021C": {
+        "code": "OP01-021C",
+        "name": "Franky",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-021C.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP01-021D": {
+        "code": "OP01-021D",
+        "name": "Franky",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-021D.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2"
+    },
+    "OP01-021E": {
+        "code": "OP01-021E",
+        "name": "Franky",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-021E.jpg",
+        "price": 8.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2 winner"
+    },
+    "OP01-021F": {
+        "code": "OP01-021F",
+        "name": "Franky",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-021F.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "OP01-022": {
         "code": "OP01-022",
         "name": "Brook",
@@ -358,6 +706,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-022B": {
+        "code": "OP01-022B",
+        "name": "Brook",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-022B.jpg",
+        "price": 3.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
     },
     "OP01-023": {
         "code": "OP01-023",
@@ -430,6 +790,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative starter"
+    },
+    "OP01-025D": {
+        "code": "OP01-025D",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-025D.jpg",
+        "price": 1300,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship treasure"
     },
     "OP01-026": {
         "code": "OP01-026",
@@ -539,6 +911,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-033B": {
+        "code": "OP01-033B",
+        "name": "Izo",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-033B.jpg",
+        "price": 35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP01-033C": {
+        "code": "OP01-033C",
+        "name": "Izo",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-033C.jpg",
+        "price": 2.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2"
+    },
+    "OP01-033D": {
+        "code": "OP01-033D",
+        "name": "Izo",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-033D.jpg",
+        "price": 24,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2 winner"
+    },
     "OP01-034": {
         "code": "OP01-034",
         "name": "Inuarashi",
@@ -574,6 +982,54 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-035B": {
+        "code": "OP01-035B",
+        "name": "Okiku",
+        "rarity": "R",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-035B.jpg",
+        "price": 1.2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP01-035C": {
+        "code": "OP01-035C",
+        "name": "Okiku",
+        "rarity": "R",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-035C.jpg",
+        "price": 23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP01-035D": {
+        "code": "OP01-035D",
+        "name": "Okiku",
+        "rarity": "R",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-035D.jpg",
+        "price": 0.4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4"
+    },
+    "OP01-035E": {
+        "code": "OP01-035E",
+        "name": "Okiku",
+        "rarity": "R",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-035E.jpg",
+        "price": 14.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4 winner"
     },
     "OP01-036": {
         "code": "OP01-036",
@@ -622,6 +1078,54 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-039B": {
+        "code": "OP01-039B",
+        "name": "Killer",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-039B.jpg",
+        "price": 2800,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
+    "OP01-039C": {
+        "code": "OP01-039C",
+        "name": "Killer",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-039C.jpg",
+        "price": 5000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "OP01-039D": {
+        "code": "OP01-039D",
+        "name": "Killer",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-039D.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
+    "OP01-039E": {
+        "code": "OP01-039E",
+        "name": "Killer",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-039E.jpg",
+        "price": 0.7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "promopack2023"
     },
     "OP01-040": {
         "code": "OP01-040",
@@ -850,6 +1354,30 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-052B": {
+        "code": "OP01-052B",
+        "name": "Raizo",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-052B.jpg",
+        "price": 23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP01-052C": {
+        "code": "OP01-052C",
+        "name": "Raizo",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP01/OP01-052C.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp eventpack2"
     },
     "OP01-053": {
         "code": "OP01-053",
@@ -1187,6 +1715,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP01-073C": {
+        "code": "OP01-073C",
+        "name": "Donquixote Doflamingo",
+        "rarity": "R",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP01/OP01-073C.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
     "OP01-074": {
         "code": "OP01-074",
         "name": "Bartholomew Kuma",
@@ -1247,6 +1787,18 @@
         "special": true,
         "specialDescription": "boxtopper"
     },
+    "OP01-077C": {
+        "code": "OP01-077C",
+        "name": "Perona",
+        "rarity": "UC",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP01/OP01-077C.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
     "OP01-078": {
         "code": "OP01-078",
         "name": "Boa Hancock",
@@ -1294,6 +1846,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-079B": {
+        "code": "OP01-079B",
+        "name": "Ms. All Sunday",
+        "rarity": "R",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP01/OP01-079B.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "promopack2023"
     },
     "OP01-080": {
         "code": "OP01-080",
@@ -1354,6 +1918,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-084B": {
+        "code": "OP01-084B",
+        "name": "Mr. 2 Bon Kurei (Bentham)",
+        "rarity": "UC",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP01/OP01-084B.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "OP01-085": {
         "code": "OP01-085",
@@ -1487,6 +2063,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP01-093C": {
+        "code": "OP01-093C",
+        "name": "Ulti",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-093C.jpg",
+        "price": 0.1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "promopack2023"
+    },
     "OP01-094": {
         "code": "OP01-094",
         "name": "Kaido",
@@ -1607,6 +2195,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-100B": {
+        "code": "OP01-100B",
+        "name": "Kurozumi Higurashi",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-100B.jpg",
+        "price": 0.89,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
     "OP01-101": {
         "code": "OP01-101",
         "name": "Sasaki",
@@ -1618,6 +2218,30 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-101B": {
+        "code": "OP01-101B",
+        "name": "Sasaki",
+        "rarity": "UC",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-101B.jpg",
+        "price": 16.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP01-101C": {
+        "code": "OP01-101C",
+        "name": "Sasaki",
+        "rarity": "UC",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-101C.jpg",
+        "price": 2.4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp eventpack2"
     },
     "OP01-102": {
         "code": "OP01-102",
@@ -1715,6 +2339,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP01-108B": {
+        "code": "OP01-108B",
+        "name": "Hitokiri Kamazo",
+        "rarity": "UC",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-108B.jpg",
+        "price": 4.95,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "OP01-109": {
         "code": "OP01-109",
         "name": "Who's Who",
@@ -1798,6 +2434,42 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP01-114B": {
+        "code": "OP01-114B",
+        "name": "X-Drake",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-114B.jpg",
+        "price": 2000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
+    "OP01-114C": {
+        "code": "OP01-114C",
+        "name": "X-Drake",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-114C.jpg",
+        "price": 3700,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "OP01-114D": {
+        "code": "OP01-114D",
+        "name": "X-Drake",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP01/OP01-114D.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
     },
     "OP01-115": {
         "code": "OP01-115",
@@ -1894,6 +2566,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative manga"
+    },
+    "OP01-120D": {
+        "code": "OP01-120D",
+        "name": "Shanks",
+        "rarity": "SEC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP01/OP01-120D.jpg",
+        "price": 8000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
     },
     "OP01-121": {
         "code": "OP01-121",
@@ -2027,6 +2711,18 @@
         "special": true,
         "specialDescription": "special disney"
     },
+    "OP02-004D": {
+        "code": "OP02-004D",
+        "name": "Edward Newgate",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-004D.jpg",
+        "price": 2700,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
     "OP02-005": {
         "code": "OP02-005",
         "name": "Curly Dadan",
@@ -2074,6 +2770,42 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP02-008B": {
+        "code": "OP02-008B",
+        "name": "Jozu",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-008B.jpg",
+        "price": 1.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP02-008C": {
+        "code": "OP02-008C",
+        "name": "Jozu",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-008C.jpg",
+        "price": 8.2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP02-008D": {
+        "code": "OP02-008D",
+        "name": "Jozu",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-008D.jpg",
+        "price": 290,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
     },
     "OP02-009": {
         "code": "OP02-009",
@@ -2254,6 +2986,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative"
+    },
+    "OP02-018C": {
+        "code": "OP02-018C",
+        "name": "Marco",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-018C.jpg",
+        "price": 390,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
+    "OP02-018D": {
+        "code": "OP02-018D",
+        "name": "Marco",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP02/OP02-018D.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "promopack2023"
     },
     "OP02-019": {
         "code": "OP02-019",
@@ -2495,6 +3251,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP02-034B": {
+        "code": "OP02-034B",
+        "name": "Tony Tony Chopper",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-034B.jpg",
+        "price": 23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "OP02-035": {
         "code": "OP02-035",
         "name": "Trafalgar Law",
@@ -2506,6 +3274,78 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP02-035B": {
+        "code": "OP02-035B",
+        "name": "Trafalgar Law ONL REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035B.jpg",
+        "price": 34,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "OP02-035C": {
+        "code": "OP02-035C",
+        "name": "Trafalgar Law ONL REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035C.jpg",
+        "price": 145,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "OP02-035D": {
+        "code": "OP02-035D",
+        "name": "Trafalgar Law ONL REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035D.jpg",
+        "price": 595,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "OP02-035E": {
+        "code": "OP02-035E",
+        "name": "Trafalgar Law OFF REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035E.jpg",
+        "price": 40,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "OP02-035F": {
+        "code": "OP02-035F",
+        "name": "Trafalgar Law OFF REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035F.jpg",
+        "price": 60,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "OP02-035G": {
+        "code": "OP02-035G",
+        "name": "Trafalgar Law OFF REG",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-035G.jpg",
+        "price": 50000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
     },
     "OP02-036": {
         "code": "OP02-036",
@@ -2579,6 +3419,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP02-040B": {
+        "code": "OP02-040B",
+        "name": "Brook",
+        "rarity": "R",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-040B.jpg",
+        "price": 5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
     "OP02-041": {
         "code": "OP02-041",
         "name": "Monkey D. Luffy",
@@ -2614,6 +3466,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP02-042B": {
+        "code": "OP02-042B",
+        "name": "Yamato",
+        "rarity": "R",   
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP02/OP02-042B.jpg",
+        "price": 2.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP02-043": {
         "code": "OP02-043",
@@ -2771,6 +3635,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP02-053B": {
+        "code": "OP02-053B",
+        "name": "Crocodile OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP02/OP02-053B.jpg",
+        "price": 18,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "OP02-053C": {
+        "code": "OP02-053C",
+        "name": "Crocodile OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP02/OP02-053C.jpg",
+        "price": 39,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "OP02-053D": {
+        "code": "OP02-053D",
+        "name": "Crocodile OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP02/OP02-053D.jpg",
+        "price": 1000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
+    },
     "OP02-054": {
         "code": "OP02-054",
         "name": "Gecko Moria",
@@ -2866,6 +3766,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "boxtopper"
+    },
+    "OP02-059C": {
+        "code": "OP02-059C",
+        "name": "Boa Hancock",
+        "rarity": "UC",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP02/OP02-059C.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP02-059D": {
+        "code": "OP02-059D",
+        "name": "Boa Hancock",
+        "rarity": "UC",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP02/OP02-059D.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
     },
     "OP02-060": {
         "code": "OP02-060",
@@ -3082,6 +4006,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative"
+    },
+    "OP02-073C": {
+        "code": "OP02-073C",
+        "name": "Little Sadi",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP02/OP02-073C.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP02-074": {
         "code": "OP02-074",
@@ -3419,6 +4355,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP02-096C": {
+        "code": "OP02-096C",
+        "name": "Kuzan",
+        "rarity": "SR",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-096C.jpg",
+        "price": 1200,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
     "OP02-097": {
         "code": "OP02-097",
         "name": "Komille",
@@ -3442,6 +4390,90 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP02-098B": {
+        "code": "OP02-098B",
+        "name": "Koby",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098B.jpg",
+        "price": 0.9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP02-098C": {
+        "code": "OP02-098C",
+        "name": "Koby ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098C.jpg",
+        "price": 75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "OP02-098D": {
+        "code": "OP02-098D",
+        "name": "Koby ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098D.jpg",
+        "price": 235,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "OP02-098E": {
+        "code": "OP02-098E",
+        "name": "Koby ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098E.jpg",
+        "price": 650,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "OP02-098F": {
+        "code": "OP02-098F",
+        "name": "Koby OFF REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098F.jpg",
+        "price": 70,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "OP02-098G": {
+        "code": "OP02-098G",
+        "name": "Koby OFF REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098G.jpg",
+        "price": 220,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "OP02-098H": {
+        "code": "OP02-098H",
+        "name": "Koby OFF REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-098H.jpg",
+        "price": 150000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
     },
     "OP02-099": {
         "code": "OP02-099",
@@ -3478,6 +4510,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "special disney"
+    },
+    "OP02-099D": {
+        "code": "OP02-099D",
+        "name": "Sakazuki",
+        "rarity": "SR",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-099D.jpg",
+        "price": 2500,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
     },
     "OP02-100": {
         "code": "OP02-100",
@@ -3575,6 +4619,30 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP02-106B": {
+        "code": "OP02-106B",
+        "name": "Tsuru",
+        "rarity": "UC",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-106B.jpg",
+        "price": 70,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP02-106C": {
+        "code": "OP02-106C",
+        "name": "Tsuru",
+        "rarity": "UC",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-106C.jpg",
+        "price": 9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp eventpack2"
+    },
     "OP02-107": {
         "code": "OP02-107",
         "name": "Doberman",
@@ -3610,6 +4678,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "boxtopper"
+    },
+    "OP02-108C": {
+        "code": "OP02-108C",
+        "name": "Donquixote Rosinante",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-108C.jpg",
+        "price": 2.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP02-108D": {
+        "code": "OP02-108D",
+        "name": "Donquixote Rosinante",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-108D.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "OP02-109": {
         "code": "OP02-109",
@@ -3694,6 +4786,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative"
+    },
+    "OP02-114C": {
+        "code": "OP02-114C",
+        "name": "Borsalino",
+        "rarity": "SR",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP02/OP02-114C.jpg",
+        "price": 895,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
     },
     "OP02-115": {
         "code": "OP02-115",
@@ -3851,6 +4955,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP03-001C":{
+        "code": "OP03-001C",
+        "name": "Portgas D. Ace",
+        "rarity": "L",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP03/OP03-001C.jpg",
+        "price": 27.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium aslpack"
+    },
     "OP03-002": {
         "code": "OP03-002",
         "name": "Adio",
@@ -3911,6 +5027,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-006B": {
+        "code": "OP03-006B",
+        "name": "Speed Jil",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP03/OP03-006B.jpg",
+        "price": 0.35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
+    },
     "OP03-007": {
         "code": "OP03-007",
         "name": "Namule",
@@ -3934,6 +5062,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-008B": {
+        "code": "OP03-008B",
+        "name": "Buggy",
+        "rarity": "UC",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP03/OP03-008B.jpg",
+        "price": 5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP03-009": {
         "code": "OP03-009",
@@ -4007,6 +5147,18 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP03-013C": {
+        "code": "OP03-013C",
+        "name": "Marco",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP03/OP03-013C.jpg",
+        "price": 1040,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
     "OP03-014": {
         "code": "OP03-014",
         "name": "Monkey D. Garp",
@@ -4042,6 +5194,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-016B": {
+        "code": "OP03-016B",
+        "name": "Flame Emperor",
+        "rarity": "R",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/OP03/OP03-016B.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP03-017": {
         "code": "OP03-017",
@@ -4223,6 +5387,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-026B": {
+        "code": "OP03-026B",
+        "name": "Kuroobi",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP03/OP03-026B.jpg",
+        "price": 15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "OP03-026C": {
+        "code": "OP03-026C",
+        "name": "Kuroobi",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP03/OP03-026C.jpg",
+        "price": 29,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "OP03-026D": {
+        "code": "OP03-026D",
+        "name": "Kuroobi",
+        "rarity": "UC",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP03/OP03-026D.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
     "OP03-027": {
         "code": "OP03-027",
         "name": "Sham",
@@ -4283,6 +5483,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-031B": {
+        "code": "OP03-031B",
+        "name": "Pearl",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP03/OP03-031B.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "OP03-032": {
         "code": "OP03-032",
         "name": "Buggy",
@@ -4294,6 +5506,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-032B": {
+        "code": "OP03-032B",
+        "name": "Buggy",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/OP03/OP03-032B.jpg",
+        "price": 0.2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
     },
     "OP03-033": {
         "code": "OP03-033",
@@ -4547,6 +5771,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-050B": {
+        "code": "OP03-050B",
+        "name": "Boodle",
+        "rarity": "UC",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP03/OP03-050B.jpg",
+        "price": 0.3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
+    },
     "OP03-051": {
         "code": "OP03-051",
         "name": "Bell-mere",
@@ -4630,6 +5866,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-057B": {
+        "code": "OP03-057B",
+        "name": "Three Thousand Worlds",
+        "rarity": "R",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/OP03/OP03-057B.jpg",
+        "price": 4.7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP03-058": {
         "code": "OP03-058",
@@ -4799,6 +6047,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-069B": {
+        "code": "OP03-069B",
+        "name": "Minorhinoceros ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP03/OP03-069B.jpg",
+        "price": 17,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "OP03-069C": {
+        "code": "OP03-069C",
+        "name": "Minorhinoceros ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP03/OP03-069C.jpg",
+        "price": 27,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "OP03-069D": {
+        "code": "OP03-069D",
+        "name": "Minorhinoceros ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP03/OP03-069D.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
     "OP03-070": {
         "code": "OP03-070",
         "name": "Monkey D. Luffy",
@@ -4810,6 +6094,30 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-070B": {
+        "code": "OP03-070B",
+        "name": "Monkey D. Luffy",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP03/OP03-070B.jpg",
+        "price": 2.9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP03-070C": {
+        "code": "OP03-070C",
+        "name": "Monkey D. Luffy",
+        "rarity": "R",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/OP03/OP03-070C.jpg",
+        "price": 0.7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
     },
     "OP03-071": {
         "code": "OP03-071",
@@ -5003,6 +6311,30 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP03-081C": {
+        "code": "OP03-081C",
+        "name": "Kalifa",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-081C.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "OP03-081D": {
+        "code": "OP03-081D",
+        "name": "Kalifa",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-081D.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
+    },
     "OP03-082": {
         "code": "OP03-082",
         "name": "Kumadori",
@@ -5075,6 +6407,42 @@
         "special": true,
         "specialDescription": "alternative"
     },
+    "OP03-086C": {
+        "code": "OP03-086C",
+        "name": "Spandam ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-086C.jpg",
+        "price": 35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional "
+    },
+    "OP03-086D": {
+        "code": "OP03-086D",
+        "name": "Spandam ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-086D.jpg",
+        "price": 60,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional "
+    },
+    "OP03-086E": {
+        "code": "OP03-086E",
+        "name": "Spandam ONL REG",
+        "rarity": "R",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-086E.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional "
+    },
     "OP03-087": {
         "code": "OP03-087",
         "name": "Nero",
@@ -5134,6 +6502,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-091B": {
+        "code": "OP03-091B",
+        "name": "Helmeppo",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP03/OP03-091B.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "OP03-092": {
         "code": "OP03-092",
@@ -5303,6 +6683,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-102B": {
+        "code": "OP03-102B",
+        "name": "Sanji",
+        "rarity": "R",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-102B.jpg",
+        "price": 12,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "OP03-103": {
         "code": "OP03-103",
         "name": "Bobbin The Disposer",
@@ -5399,6 +6791,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-109B": {
+        "code": "OP03-109B",
+        "name": "Charlotte Chiffon OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-109B.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "OP03-109C": {
+        "code": "OP03-109C",
+        "name": "Charlotte Chiffon OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-109C.jpg",
+        "price": 29.7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "OP03-109D": {
+        "code": "OP03-109D",
+        "name": "Charlotte Chiffon OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-109D.jpg",
+        "price": 1200,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
+    },
     "OP03-110": {
         "code": "OP03-110",
         "name": "Charlotte Smoothie",
@@ -5446,6 +6874,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative"
+    },
+    "OP03-112C": {
+        "code": "OP03-112C",
+        "name": "Charlotte Pudding",
+        "rarity": "R",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-112C.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP03-113": {
         "code": "OP03-113",
@@ -5519,6 +6959,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "OP03-116B": {
+        "code": "OP03-116B",
+        "name": "Shirahoshi",
+        "rarity": "UC",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-116B.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "04dash"
+    },
     "OP03-117": {
         "code": "OP03-117",
         "name": "Napoleon",
@@ -5578,6 +7030,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "OP03-121B": {
+        "code": "OP03-121B",
+        "name": "Thunder Bolt",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP03/OP03-121B.jpg",
+        "price": 9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "OP03-122": {
         "code": "OP03-122",
@@ -6875,6 +8339,18 @@
         "special": true,
         "specialDescription": "alternative manga"
     },
+    "OP04-083D": {
+        "code": "OP04-083D",
+        "name": "Sabo",
+        "rarity": "SR",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/OP04/OP04-083D.jpg",
+        "price": 379,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "sealedbattle1 winner"
+    },
     "OP04-084": {
         "code": "OP04-084",
         "name": "Stussy",
@@ -7102,6 +8578,42 @@
         "collection": false,
         "special": true,
         "specialDescription": "alternative"
+    },
+    "OP04-100C": {
+        "code": "OP04-100C",
+        "name": "Capone 'Gang' Bege",
+        "rarity": "R",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP04/OP04-100C.jpg",
+        "price": 3800,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
+    "OP04-100D": {
+        "code": "OP04-100D",
+        "name": "Capone 'Gang' Bege",
+        "rarity": "R",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP04/OP04-100D.jpg",
+        "price": 8300,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "OP04-100E": {
+        "code": "OP04-100E",
+        "name": "Capone 'Gang' Bege",
+        "rarity": "R",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/OP04/OP04-100E.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
     },
     "OP04-101": {
         "code": "OP04-101",
@@ -9177,7 +10689,31 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "only japan"
+        "specialDescription": "japan"
+    },
+    "ST01-001D":{
+        "code": "ST01-001D",
+        "name": "Monkey D. Luffy R",
+        "rarity": "L",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-001D.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST01-001E":{
+        "code": "ST01-001E",
+        "name": "Monkey D. Luffy",
+        "rarity": "L",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-001E.jpg",
+        "price": 10000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner limited"
     },
     "ST01-002": {
         "code": "ST01-002",
@@ -9202,6 +10738,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-002C": {
+        "code": "ST01-002C",
+        "name": "Usopp",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-002C.jpg",
+        "price": 0.35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "ST01-002D": {
+        "code": "ST01-002D",
+        "name": "Usopp",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-002D.jpg",
+        "price": 0.47,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
     },
     "ST01-003": {
         "code": "ST01-003",
@@ -9251,6 +10811,90 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-004C": {
+        "code": "ST01-004C",
+        "name": "Sanji",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004C.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "ST01-004D": {
+        "code": "ST01-004D",
+        "name": "Sanji ONL REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004D.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional online participant"
+    },
+    "ST01-004E": {
+        "code": "ST01-004E",
+        "name": "Sanji ONL REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004E.jpg",
+        "price": 100,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional online finals"
+    },
+    "ST01-004F": {
+        "code": "ST01-004F",
+        "name": "Sanji ONL REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004F.jpg",
+        "price": 590,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional online winner"
+    },
+    "ST01-004G": {
+        "code": "ST01-004G",
+        "name": "Sanji OFF REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004G.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional offline participant"
+    },
+    "ST01-004H": {
+        "code": "ST01-004H",
+        "name": "Sanji OFF REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004H.jpg",
+        "price": 90,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional offline finals"
+    },
+    "ST01-004I": {
+        "code": "ST01-004I",
+        "name": "Sanji OFF REG",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-004I.jpg",
+        "price": 50000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp regional offline winner"
+    },
     "ST01-005": {
         "code": "ST01-005",
         "name": "Jinbe",
@@ -9274,6 +10918,42 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-005C": {
+        "code": "ST01-005C",
+        "name": "Jinbe",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-005C.jpg",
+        "price": 0.45,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "ST01-005D": {
+        "code": "ST01-005D",
+        "name": "Jinbe R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-005D.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST01-005E": {
+        "code": "ST01-005E",
+        "name": "Jinbe",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-005E.jpg",
+        "price": 2.75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
     },
     "ST01-006": {
         "code": "ST01-006",
@@ -9299,6 +10979,78 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-006C": {
+        "code": "ST01-006C",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006C.jpg",
+        "price": 5.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "ST01-006D": {
+        "code": "ST01-006D",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006D.jpg",
+        "price": 2.9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "ST01-006E": {
+        "code": "ST01-006E",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006E.jpg",
+        "price": 340,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship treasure"
+    },
+    "ST01-006F": {
+        "code": "ST01-006F",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006F.jpg",
+        "price": 99,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3"
+    },
+    "ST01-006G": {
+        "code": "ST01-006G",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006G.jpg",
+        "price": 340,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3 winner"
+    },
+    "ST01-006H": {
+        "code": "ST01-006H",
+        "name": "Tony Tony Chopper",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-006H.jpg",
+        "price": 11,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "ST01-007": {
         "code": "ST01-007",
         "name": "Nami",
@@ -9322,6 +11074,66 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-007C": {
+        "code": "ST01-007C",
+        "name": "Nami",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-007C.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "ST01-007D": {
+        "code": "ST01-007D",
+        "name": "Nami R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-007D.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST01-007E": {
+        "code": "ST01-007E",
+        "name": "Nami",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-007E.jpg",
+        "price": 118,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST01-007F": {
+        "code": "ST01-007F",
+        "name": "Nami",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-007F.jpg",
+        "price": 0.2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3"
+    },
+    "ST01-007G": {
+        "code": "ST01-007G",
+        "name": "Nami",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-007G.jpg",
+        "price": 62,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3 winner"
     },
     "ST01-008": {
         "code": "ST01-008",
@@ -9347,6 +11159,30 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-008C": {
+        "code": "ST01-008C",
+        "name": "Nico Robin",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-008C.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "ST01-008D": {
+        "code": "ST01-008D",
+        "name": "Nico Robin",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-008D.jpg",
+        "price": 4.75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "ST01-009": {
         "code": "ST01-009",
         "name": "Nefeltari Vivi",
@@ -9370,6 +11206,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-009C": {
+        "code": "ST01-009C",
+        "name": "Nefeltari Vivi",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-009C.jpg",
+        "price": 0.1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "prerelease"
+    },
+    "ST01-009D": {
+        "code": "ST01-009D",
+        "name": "Nefeltari Vivi",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-009D.jpg",
+        "price": 88,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "prerelease winner"
     },
     "ST01-010": {
         "code": "ST01-010",
@@ -9395,6 +11255,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-010C": {
+        "code": "ST01-010C",
+        "name": "Franky",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-010C.jpg",
+        "price": 1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
     "ST01-011": {
         "code": "ST01-011",
         "name": "Brook",
@@ -9418,6 +11290,54 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-011C": {
+        "code": "ST01-011C",
+        "name": "Brook",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-011C.jpg",
+        "price": 2.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "ST01-011D": {
+        "code": "ST01-011D",
+        "name": "Brook",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-011D.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST01-011E": {
+        "code": "ST01-011E",
+        "name": "Brook",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-011E.jpg",
+        "price": 0.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4"
+    },
+    "ST01-011F": {
+        "code": "ST01-011F",
+        "name": "Brook",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-011F.jpg",
+        "price": 13,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4 winner"
     },
     "ST01-012": {
         "code": "ST01-012",
@@ -9479,6 +11399,30 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-012F": {
+        "code": "ST01-012F",
+        "name": "Monkey D. Luffy",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-012F.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5"
+    },
+    "ST01-012G": {
+        "code": "ST01-012G",
+        "name": "Monkey D. Luffy",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-012G.jpg",
+        "price": 25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5 winner"
+    },
     "ST01-013": {
         "code": "ST01-013",
         "name": "Roronoa Zoro",
@@ -9502,6 +11446,66 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-013C": {
+        "code": "ST01-013C",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-013C.jpg",
+        "price": 2.27,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
+    },
+    "ST01-013D": {
+        "code": "ST01-013D",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-013D.jpg",
+        "price": 2400,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship treasure"
+    },
+    "ST01-013E": {
+        "code": "ST01-013E",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-013E.jpg",
+        "price": 1000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3"
+    },
+    "ST01-013F": {
+        "code": "ST01-013F",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-013F.jpg",
+        "price": 1700,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp 3on3 winner"
+    },
+    "ST01-013G": {
+        "code": "ST01-013G",
+        "name": "Roronoa Zoro",
+        "rarity": "SR",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-013G.jpg",
+        "price": 10,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
     },
     "ST01-014": {
         "code": "ST01-014",
@@ -9527,6 +11531,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-014C": {
+        "code": "ST01-014C",
+        "name": "Guard Point R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-014C.jpg",
+        "price": 1.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST01-015": {
         "code": "ST01-015",
         "name": "Gum-Gum Jet Pistol",
@@ -9550,6 +11566,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST01-015C": {
+        "code": "ST01-015C",
+        "name": "Gum-Gum Jet Pistol R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-015C.jpg",
+        "price": 0.1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST01-016": {
         "code": "ST01-016",
@@ -9575,6 +11603,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST01-016C": {
+        "code": "ST01-016C",
+        "name": "Diable Jambe R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-016C.jpg",
+        "price": 0.03,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST01-017": {
         "code": "ST01-017",
         "name": "Thousand Sunny",
@@ -9594,6 +11634,18 @@
         "colors": ["red"],
         "image": "../../../assets/Cards/ST01/ST01-017B.jpg",
         "price": 0.3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "super prerelease"
+    },
+    "ST01-017C": {
+        "code": "ST01-017C",
+        "name": "Thousand Sunny R",
+        "rarity": "C",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/ST01/ST01-017C.jpg",
+        "price": 0.02,
         "stock": 0,
         "collection": false,
         "special": true,
@@ -9633,7 +11685,7 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "only japan"
+        "specialDescription": "japan"
     },
     "ST02-002": {
         "code": "ST02-002",
@@ -9731,6 +11783,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-005C": {
+        "code": "ST02-005C",
+        "name": "Killer R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-005C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST02-006": {
         "code": "ST02-006",
         "name": "Koby",
@@ -9779,6 +11843,54 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-007C": {
+        "code": "ST02-007C",
+        "name": "Jewelry Bonney R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-007C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST02-007D": {
+        "code": "ST02-007D",
+        "name": "Jewelry Bonney",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-007D.jpg",
+        "price": 75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST02-007E": {
+        "code": "ST02-007E",
+        "name": "Jewelry Bonney",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-007E.jpg",
+        "price": 1.25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3"
+    },
+    "ST02-007F": {
+        "code": "ST02-007F",
+        "name": "Jewelry Bonney",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-007F.jpg",
+        "price": 43,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3 winner"
+    },
     "ST02-008": {
         "code": "ST02-008",
         "name": "Scratchmen Apoo",
@@ -9802,6 +11914,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST02-008C": {
+        "code": "ST02-008C",
+        "name": "Scratchmen Apoo R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-008C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST02-009": {
         "code": "ST02-009",
@@ -9827,6 +11951,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-009C": {
+        "code": "ST02-009C",
+        "name": "Trafalgar Law R",
+        "rarity": "SR",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-009C.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST02-010": {
         "code": "ST02-010",
         "name": "Basil Hawkins",
@@ -9850,6 +11986,42 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST02-010C": {
+        "code": "ST02-010C",
+        "name": "Basil Hawkins",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-010C.jpg",
+        "price": 3000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top"
+    },
+    "ST02-010D": {
+        "code": "ST02-010D",
+        "name": "Basil Hawkins",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-010D.jpg",
+        "price": 9000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "ST02-010E": {
+        "code": "ST02-010E",
+        "name": "Basil Hawkins",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-010E.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
     },
     "ST02-011": {
         "code": "ST02-011",
@@ -9923,6 +12095,30 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-013C": {
+        "code": "ST02-013C",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "SR",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-013C.jpg",
+        "price": 0.35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5"
+    },
+    "ST02-013D": {
+        "code": "ST02-013D",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "SR",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-013D.jpg",
+        "price": 10.95,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5 winner"
+    },
     "ST02-014": {
         "code": "ST02-014",
         "name": "X-Drake",
@@ -9946,6 +12142,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST02-014C": {
+        "code": "ST02-014C",
+        "name": "X-Drake",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-014C.jpg",
+        "price": 1.45,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "ST02-015": {
         "code": "ST02-015",
@@ -9971,6 +12179,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-015C": {
+        "code": "ST02-015C",
+        "name": "Scalpel R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-015C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST02-016": {
         "code": "ST02-016",
         "name": "Repel",
@@ -9994,6 +12214,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST02-016C": {
+        "code": "ST02-016C",
+        "name": "Repel R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-016C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST02-017": {
         "code": "ST02-017",
@@ -10019,6 +12251,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST02-017C": {
+        "code": "ST02-017C",
+        "name": "Straw Sword R",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST02/ST02-017C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST03-001": {
         "code": "ST03-001",
         "name": "Crocodile",
@@ -10042,6 +12286,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-001C": {
+        "code": "ST03-001C",
+        "name": "Crocodile R",
+        "rarity": "L",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-001C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST03-002": {
         "code": "ST03-002",
@@ -10091,6 +12347,42 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST03-003C": {
+        "code": "ST03-003C",
+        "name": "Crocodile R",
+        "rarity": "SR",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-003C.jpg",
+        "price": 0.1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST03-003D": {
+        "code": "ST03-003D",
+        "name": "Crocodile",
+        "rarity": "SR",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-003D.jpg",
+        "price": 0.14,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5"
+    },
+    "ST03-003E": {
+        "code": "ST03-003E",
+        "name": "Crocodile",
+        "rarity": "SR",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-003E.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5 winner"
+    },
     "ST03-004": {
         "code": "ST03-004",
         "name": "Gecko Moria",
@@ -10115,6 +12407,30 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST03-004C": {
+        "code": "ST03-004C",
+        "name": "Gecko Moria R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-004C.jpg",
+        "price": 0.15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST03-004D": {
+        "code": "ST03-004D",
+        "name": "Gecko Moria",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-004D.jpg",
+        "price": 13,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "ST03-005": {
         "code": "ST03-005",
         "name": "Dracule Mihawk",
@@ -10138,6 +12454,42 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-005C": {
+        "code": "ST03-005C",
+        "name": "Dracule Mihawk",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-005C.jpg",
+        "price": 24,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST03-005D": {
+        "code": "ST03-005D",
+        "name": "Dracule Mihawk",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-005D.jpg",
+        "price": 0.45,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4"
+    },
+    "ST03-005E": {
+        "code": "ST03-005E",
+        "name": "Dracule Mihawk",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-005E.jpg",
+        "price": 18,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4 winner"
     },
     "ST03-006": {
         "code": "ST03-006",
@@ -10187,6 +12539,54 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST03-007C": {
+        "code": "ST03-007C",
+        "name": "Sentomaru R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-007C.jpg",
+        "price": 0.1,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST03-007D": {
+        "code": "ST03-007D",
+        "name": "Sentomaru",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-007D.jpg",
+        "price": 13,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST03-007E": {
+        "code": "ST03-007E",
+        "name": "Sentomaru",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-007E.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3"
+    },
+    "ST03-007F": {
+        "code": "ST03-007F",
+        "name": "Sentomaru",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-007F.jpg",
+        "price": 11,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3 winner"
+    },
     "ST03-008": {
         "code": "ST03-008",
         "name": "Trafalgar Law",
@@ -10210,6 +12610,54 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-008C": {
+        "code": "ST03-008C",
+        "name": "Trafalgar Law",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-008C.jpg",
+        "price": 2500,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST03-008D": {
+        "code": "ST03-008D",
+        "name": "Trafalgar Law",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-008D.jpg",
+        "price": 8000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "ST03-008E": {
+        "code": "ST03-008E",
+        "name": "Trafalgar Law",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-008E.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
+    "ST03-008F": {
+        "code": "ST03-008F",
+        "name": "Trafalgar Law",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-008F.jpg",
+        "price": 6,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
     },
     "ST03-009": {
         "code": "ST03-009",
@@ -10246,6 +12694,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-009D": {
+        "code": "ST03-009D",
+        "name": "Donquixote Doflamingo R",
+        "rarity": "SR",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-009D.jpg",
+        "price": 0.2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": " reprint"
     },
     "ST03-010": {
         "code": "ST03-010",
@@ -10367,6 +12827,90 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST03-014C": {
+        "code": "ST03-014C",
+        "name": "Marshall D. Teach R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST03-014D": {
+        "code": "ST03-014D",
+        "name": "Marshall D. Teach ONL REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014D.jpg",
+        "price": 14.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "ST03-014E": {
+        "code": "ST03-014E",
+        "name": "Marshall D. Teach ONL REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014E.jpg",
+        "price": 100,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "ST03-014F": {
+        "code": "ST03-014F",
+        "name": "Marshall D. Teach ONL REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014F.jpg",
+        "price": 625,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "ST03-014G": {
+        "code": "ST03-014G",
+        "name": "Marshall D. Teach OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014G.jpg",
+        "price": 18,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "ST03-014H": {
+        "code": "ST03-014H",
+        "name": "Marshall D. Teach OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014H.jpg",
+        "price": 55,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "ST03-014I": {
+        "code": "ST03-014I",
+        "name": "Marshall D. Teach OFF REG",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-014I.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
+    },
     "ST03-015": {
         "code": "ST03-015",
         "name": "Sables",
@@ -10390,6 +12934,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-015C": {
+        "code": "ST03-015C",
+        "name": "Sables R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-015C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST03-016": {
         "code": "ST03-016",
@@ -10415,6 +12971,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST03-016C": {
+        "code": "ST03-016C",
+        "name": "Thrust Pad Cannon R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-016C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST03-017": {
         "code": "ST03-017",
         "name": "Love-Love Mellow",
@@ -10438,6 +13006,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST03-017C": {
+        "code": "ST03-017C",
+        "name": "Love-Love Mellow R",
+        "rarity": "C",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/ST03/ST03-017C.jpg",
+        "price": 5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST04-001": {
         "code": "ST04-001",
@@ -10463,6 +13043,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-001C": {
+        "code": "ST04-001C",
+        "name": "Kaido R",
+        "rarity": "L",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-001C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST04-002": {
         "code": "ST04-002",
         "name": "Ulti",
@@ -10486,6 +13078,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST04-002C": {
+        "code": "ST04-002C",
+        "name": "Ulti R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-002C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST04-003": {
         "code": "ST04-003",
@@ -10523,6 +13127,78 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-003D": {
+        "code": "ST04-003D",
+        "name": "Kaido R",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003D.jpg",
+        "price": 1.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST04-003E": {
+        "code": "ST04-003E",
+        "name": "Kaido",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003E.jpg",
+        "price": 120000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top 3"
+    },
+    "ST04-003F": {
+        "code": "ST04-003F",
+        "name": "Kaido",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003F.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship top 2"
+    },
+    "ST04-003G": {
+        "code": "ST04-003G",
+        "name": "Kaido",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003G.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
+    "ST04-003H": {
+        "code": "ST04-003H",
+        "name": "Kaido",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003H.jpg",
+        "price": 0.8,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5"
+    },
+    "ST04-003I": {
+        "code": "ST04-003I",
+        "name": "Kaido",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-003I.jpg",
+        "price": 23,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store5 winner"
+    },
     "ST04-004": {
         "code": "ST04-004",
         "name": "King",
@@ -10547,6 +13223,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-004C": {
+        "code": "ST04-004C",
+        "name": "King R",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-004C.jpg",
+        "price": 0.65,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST04-005": {
         "code": "ST04-005",
         "name": "Queen",
@@ -10570,6 +13258,30 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST04-005C": {
+        "code": "ST04-005C",
+        "name": "Queen",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-005C.jpg",
+        "price": 24,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
+    },
+    "ST04-005D": {
+        "code": "ST04-005D",
+        "name": "Queen",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-005D.jpg",
+        "price": 2500,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp treasure top"
     },
     "ST04-006": {
         "code": "ST04-006",
@@ -10643,6 +13355,90 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-008C": {
+        "code": "ST04-008C",
+        "name": "Jack R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST04-008D": {
+        "code": "ST04-008D",
+        "name": "Jack ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008D.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "ST04-008E": {
+        "code": "ST04-008E",
+        "name": "Jack ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008E.jpg",
+        "price": 47,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "ST04-008F": {
+        "code": "ST04-008F",
+        "name": "Jack ONL REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008F.jpg",
+        "price": 625,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "ST04-008G": {
+        "code": "ST04-008G",
+        "name": "Jack OFF REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008G.jpg",
+        "price": 15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "ST04-008H": {
+        "code": "ST04-008H",
+        "name": "Jack OFF REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008H.jpg",
+        "price": 38,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "ST04-008I": {
+        "code": "ST04-008I",
+        "name": "Jack OFF REG",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-008I.jpg",
+        "price": 50000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
+    },
     "ST04-009": {
         "code": "ST04-009",
         "name": "Ginrummy",
@@ -10691,6 +13487,54 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-010C": {
+        "code": "ST04-010C",
+        "name": "Who's Who R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-010C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
+    "ST04-010D": {
+        "code": "ST04-010D",
+        "name": "Who's Who",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-010D.jpg",
+        "price": 5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST04-010E": {
+        "code": "ST04-010E",
+        "name": "Who's Who",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-010E.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3"
+    },
+    "ST04-010F": {
+        "code": "ST04-010F",
+        "name": "Who's Who",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-010F.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store3 winner"
+    },
     "ST04-011": {
         "code": "ST04-011",
         "name": "Black Maria",
@@ -10714,6 +13558,42 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST04-011C": {
+        "code": "ST04-011C",
+        "name": "Black Maria",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-011C.jpg",
+        "price": 9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST04-011D": {
+        "code": "ST04-011D",
+        "name": "Black Maria",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-011D.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2"
+    },
+    "ST04-011E": {
+        "code": "ST04-011E",
+        "name": "Black Maria",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-011E.jpg",
+        "price": 10,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store2 winner"
     },
     "ST04-012": {
         "code": "ST04-012",
@@ -10787,6 +13667,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-014C": {
+        "code": "ST04-014C",
+        "name": "Lead Performer Disaster R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-014C.jpg",
+        "price": 0.04,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST04-015": {
         "code": "ST04-015",
         "name": "Brachio Bomber",
@@ -10810,6 +13702,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST04-015C": {
+        "code": "ST04-015C",
+        "name": "Brachio Bomber R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-015C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST04-016": {
         "code": "ST04-016",
@@ -10835,6 +13739,18 @@
         "special": true,
         "specialDescription": "super prerelease"
     },
+    "ST04-016C": {
+        "code": "ST04-016C",
+        "name": "Blast Breath R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-016C.jpg",
+        "price": 0.05,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
+    },
     "ST04-017": {
         "code": "ST04-017",
         "name": "Onigashima Island",
@@ -10858,6 +13774,18 @@
         "collection": false,
         "special": true,
         "specialDescription": "super prerelease"
+    },
+    "ST04-017C": {
+        "code": "ST04-017C",
+        "name": "Onigashima Island R",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST04/ST04-017C.jpg",
+        "price": 0.02,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "reprint"
     },
     "ST05-001":{
         "code": "ST05-001",
@@ -10954,6 +13882,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "ST05-008B": {
+        "code": "ST05-008B",
+        "name": "Shiki",
+        "rarity": "C",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST05/ST05-008B.jpg",
+        "price": 3.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "ST05-009": {
         "code": "ST05-009",
@@ -11087,6 +14027,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST06-002B": {
+        "code": "ST06-002B",
+        "name": "Koby",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/ST06/ST06-002B.jpg",
+        "price": 0.15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "promopack2023"
+    },
     "ST06-003": {
         "code": "ST06-003",
         "name": "Jango",
@@ -11135,6 +14087,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST06-006B": {
+        "code": "ST06-006B",
+        "name": "Tashigi",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/ST06/ST06-006B.jpg",
+        "price": 38,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST06-006C": {
+        "code": "ST06-006C",
+        "name": "Tashigi",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/ST06/ST06-006C.jpg",
+        "price": 0.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4"
+    },
+    "ST06-006D": {
+        "code": "ST06-006D",
+        "name": "Tashigi",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/ST06/ST06-006D.jpg",
+        "price": 24,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store4 winner"
+    },
     "ST06-007": {
         "code": "ST06-007",
         "name": "Tsuru",
@@ -11182,6 +14170,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "ST06-010B": {
+        "code": "ST06-010B",
+        "name": "Helmeppo",
+        "rarity": "C",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/ST06/ST06-010B.jpg",
+        "price": 10,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "judge"
     },
     "ST06-011": {
         "code": "ST06-011",
@@ -11351,6 +14351,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST07-007B": {
+        "code": "ST07-007B",
+        "name": "Charlotte Brulee",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-007B.jpg",
+        "price": 35,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
     "ST07-008": {
         "code": "ST07-008",
         "name": "Charlotte Pudding",
@@ -11362,6 +14374,78 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "ST07-008B": {
+        "code": "ST07-008B",
+        "name": "Charlotte Pudding ONL REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008B.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional participant"
+    },
+    "ST07-008C": {
+        "code": "ST07-008C",
+        "name": "Charlotte Pudding ONL REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008C.jpg",
+        "price": 75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional finals"
+    },
+    "ST07-008D": {
+        "code": "ST07-008D",
+        "name": "Charlotte Pudding ONL REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008D.jpg",
+        "price": 650,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp online regional winner"
+    },
+    "ST07-008E": {
+        "code": "ST07-008E",
+        "name": "Charlotte Pudding OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008E.jpg",
+        "price": 24.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional participant"
+    },
+    "ST07-008F": {
+        "code": "ST07-008F",
+        "name": "Charlotte Pudding OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008F.jpg",
+        "price": 70,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional finals"
+    },
+    "ST07-008G": {
+        "code": "ST07-008G",
+        "name": "Charlotte Pudding OFF REG",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST07/ST07-008G.jpg",
+        "price": 50000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp offline regional winner"
     },
     "ST07-009": {
         "code": "ST07-009",
@@ -11795,6 +14879,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST09-012B": {
+        "code": "ST09-012B",
+        "name": "Yamato",
+        "rarity": "C",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/ST09/ST09-012B.jpg",
+        "price": 9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
     "ST09-013": {
         "code": "ST09-013",
         "name": "Yamato",
@@ -11987,6 +15083,42 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST10-013B": {
+        "code": "ST10-013B",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST10/ST10-013B.jpg",
+        "price": 4000,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "ST10-013C": {
+        "code": "ST10-013C",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST10/ST10-013C.jpg",
+        "price": 7800,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship finals"
+    },
+    "ST10-013D": {
+        "code": "ST10-013D",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "SR",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/ST10/ST10-013D.jpg",
+        "price": 0,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
     "ST10-014": {
         "code": "ST10-014",
         "name": "Wire",
@@ -12071,6 +15203,18 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST11-003B": {
+        "code": "ST11-003B",
+        "name": "Backlight",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST11/ST11-003B.jpg",
+        "price": 27,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "utabattle"
+    },
     "ST11-004": {
         "code": "ST11-004",
         "name": "New Genesis",
@@ -12082,6 +15226,18 @@
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "ST11-004B": {
+        "code": "ST11-004B",
+        "name": "New Genesis",
+        "rarity": "SR",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST11/ST11-004B.jpg",
+        "price": 15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "utabattle"
     },
     "ST11-005": {
         "code": "ST11-005",
@@ -12095,25 +15251,109 @@
         "special": false,
         "specialDescription": ""
     },
+    "ST11-005B": {
+        "code": "ST11-005B",
+        "name": "I'm Invincible",
+        "rarity": "C",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/ST11/ST11-005B.jpg",
+        "price": 20,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "utabattle"
+    },
     "P-001": {
         "code": "P-001",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-001.png",
-        "price": 0.02,
+        "price": 0.5,
         "stock": 0,
         "collection": false,
         "special": false,
         "specialDescription": ""
     },
+    "P-001B": {
+        "code": "P-001B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001B.jpg",
+        "price": 2,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium 25anniversary"
+    },
+    "P-001C": {
+        "code": "P-001C",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001C.jpg",
+        "price": 17,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "alternative super prerelease"
+    },
+    "P-001D": {
+        "code": "P-001D",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001D.jpg",
+        "price": 1700,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "alternative super prerelease winner"
+    },
+    "P-001E": {
+        "code": "P-001E",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001E.jpg",
+        "price": 6,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
+    "P-001F": {
+        "code": "P-001F",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001F.jpg",
+        "price": 530,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
+    "P-001G": {
+        "code": "P-001G",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-001G.jpg",
+        "price": 12.9,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "japan"
+    },
     "P-002": {
         "code": "P-002",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "I Smell Adventure Ahead!",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-002.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
         "special": false,
@@ -12121,23 +15361,35 @@
     },
     "P-003": {
         "code": "P-003",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-003.png",
-        "price": 0.02,
+        "price": 3.9,
         "stock": 0,
         "collection": false,
         "special": false,
         "specialDescription": ""
     },
+    "P-003B": {
+        "code": "P-003B",
+        "name": "Eustass 'Captain' Kid",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-003B.jpg",
+        "price": 49,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship winner"
+    },
     "P-004": {
         "code": "P-004",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Crocodile",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-004.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
         "special": false,
@@ -12145,11 +15397,11 @@
     },
     "P-005": {
         "code": "P-005",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Kaido",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-005.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
         "special": false,
@@ -12157,735 +15409,1107 @@
     },
     "P-006": {
         "code": "P-006",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-006.png",
-        "price": 0.02,
+        "price": 4,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "store1"
+    },
+    "P-006B": {
+        "code": "P-006B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-006B.jpg",
+        "price": 29,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 winner"
+    },
+    "P-006C": {
+        "code": "P-006C",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-006C.jpg",
+        "price": 4.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 alternative"
+    },
+    "P-006D": {
+        "code": "P-006D",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-006D.jpg",
+        "price": 15,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-007": {
         "code": "P-007",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-007.png",
-        "price": 0.02,
+        "price": 0.5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "store1"
+    },
+    "P-007B": {
+        "code": "P-007B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-007B.jpg",
+        "price": 25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 winner"
+    },
+    "P-007C": {
+        "code": "P-007C",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-007C.jpg",
+        "price": 11,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-008": {
         "code": "P-008",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Yamato",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-008.png",
-        "price": 0.02,
+        "price": 3,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "store1"
+    },
+    "P-008B": {
+        "code": "P-008B",
+        "name": "Yamato",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-008B.jpg",
+        "price": 49,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 winner"
+    },
+    "P-008C": {
+        "code": "P-008C",
+        "name": "Yamato",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-008C.jpg",
+        "price": 22.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-009": {
         "code": "P-009",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Trafalgar Law",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-009.png",
-        "price": 0.02,
+        "price": 6,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "store1"
+    },
+    "P-009B": {
+        "code": "P-009B",
+        "name": "Trafalgar Law",
+        "rarity": "P",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/P/P-009B.jpg",
+        "price": 30,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 winner"
+    },
+    "P-009C": {
+        "code": "P-009C",
+        "name": "Trafalgar Law",
+        "rarity": "P",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/P/P-009C.jpg",
+        "price": 13,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-010": {
         "code": "P-010",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Kaido",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-010.png",
-        "price": 0.02,
+        "price": 3.4,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "store1"
+    },
+    "P-010B": {
+        "code": "P-010B",
+        "name": "Kaido",
+        "rarity": "P",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/P/P-010B.jpg",
+        "price": 24,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "store1 winner"
+    },
+    "P-010C": {
+        "code": "P-010C",
+        "name": "Kaido",
+        "rarity": "P",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/P/P-010C.jpg",
+        "price": 12,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-011": {
         "code": "P-011",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Uta",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-011.png",
-        "price": 0.02,
+        "price": 0.1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-012": {
         "code": "P-012",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Jellyfish Pirates",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-012.png",
-        "price": 0.02,
+        "price": 0.05,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-013": {
         "code": "P-013",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Gordon",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-013.png",
-        "price": 0.02,
+        "price": 9,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-014": {
         "code": "P-014",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Koby",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-014.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-015": {
         "code": "P-015",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Sunny-Kun",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-015.png",
-        "price": 0.02,
+        "price": 1.5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-016": {
         "code": "P-016",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Shanks",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-016.png",
-        "price": 0.02,
+        "price": 0.3,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
+    },
+    "P-016B": {
+        "code": "P-016B",
+        "name": "Shanks",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-016B.jpg",
+        "price": 1.75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
     },
     "P-017": {
         "code": "P-017",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Trafalgar Law",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-017.png",
-        "price": 0.02,
+        "price": 5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-018": {
         "code": "P-018",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Bartolomeo",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-018.png",
-        "price": 0.02,
+        "price": 0.1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-019": {
         "code": "P-019",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Bepo",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-019.png",
-        "price": 0.02,
+        "price": 2.95,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-020": {
         "code": "P-020",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Helmeppo",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-020.png",
-        "price": 0.02,
+        "price": 0.1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-021": {
         "code": "P-021",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Benn Beckman",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-021.png",
-        "price": 0.02,
+        "price": 0.2,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-022": {
         "code": "P-022",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-022.png",
-        "price": 0.02,
+        "price": 2,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
+    },
+    "P-022B": {
+        "code": "P-022B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-022B.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium filmred"
     },
     "P-023": {
         "code": "P-023",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Yasopp",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-023.png",
-        "price": 0.02,
+        "price": 0.2,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utapack"
     },
     "P-024": {
         "code": "P-024",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "I'm Gonna Be King Of The Pirates!!",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-024.png",
-        "price": 0.02,
+        "price": 0.6,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "piratesparty1"
     },
     "P-025": {
         "code": "P-025",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Smoker",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-025.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "prerelease"
+    },
+    "P-025B": {
+        "code": "P-025B",
+        "name": "Smoker",
+        "rarity": "P",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/P/P-025B.jpg",
+        "price": 75,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "prerelease winner"
     },
     "P-026": {
         "code": "P-026",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Morgan",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-026.png",
-        "price": 0.02,
+        "price": 0.08,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "piratesparty2"
     },
     "P-027": {
         "code": "P-027",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "General Franky",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-027.png",
-        "price": 0.02,
+        "price": 8,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack2"
+    },
+    "P-027B": {
+        "code": "P-027B",
+        "name": "General Franky",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-027B.jpg",
+        "price": 10,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-028": {
         "code": "P-028",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Portgas D. Ace",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-028.png",
-        "price": 0.02,
+        "price": 15,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack1"
+    },
+    "P-028B": {
+        "code": "P-028B",
+        "name": "Portgas D. Ace",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-028B.jpg",
+        "price": 7,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "premium giftbox"
+    },
+    "P-028C": {
+        "code": "P-028C",
+        "name": "Portgas D. Ace",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-028C.jpg",
+        "price": 25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
+    },
+    "P-028D": {
+        "code": "P-028D",
+        "name": "Portgas D. Ace",
+        "rarity": "P",
+        "colors": ["red"],
+        "image": "../../../assets/Cards/P/P-028D.png",
+        "price": 8,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-029": {
         "code": "P-029",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Bartolomeo",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-029.png",
-        "price": 0.02,
+        "price": 35,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack1"
+    },
+    "P-029B": {
+        "code": "P-029B",
+        "name": "Bartolomeo",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-029B.jpg",
+        "price": 43,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-030": {
         "code": "P-030",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Jinbe",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-030.png",
-        "price": 0.02,
+        "price": 24,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack1"
+    },
+    "P-030B": {
+        "code": "P-030B",
+        "name": "Jinbe",
+        "rarity": "P",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/P/P-030B.jpg",
+        "price": 42,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-031": {
         "code": "P-031",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Uta",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-031.png",
-        "price": 0.02,
+        "price": 15,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack1"
+    },
+    "P-031B": {
+        "code": "P-031B",
+        "name": "Uta",
+        "rarity": "P",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/P/P-031B.jpg",
+        "price": 25,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-032": {
         "code": "P-032",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Sengoku",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-032.png",
-        "price": 0.02,
+        "price": 10,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack1"
+    },
+    "P-032B": {
+        "code": "P-032B",
+        "name": "Sengoku",
+        "rarity": "P",
+        "colors": ["black"],
+        "image": "../../../assets/Cards/P/P-032B.jpg",
+        "price": 17,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-033": {
         "code": "P-033",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-033.png",
-        "price": 0.02,
+        "price": 15,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack2"
+    },
+    "P-033B": {
+        "code": "P-033B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["blue"],
+        "image": "../../../assets/Cards/P/P-033B.jpg",
+        "price": 50,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-034": {
         "code": "P-034",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Sanji",
+        "rarity": "P",
+        "colors": ["yellow"],
         "image": "../../../assets/Cards/P/P-034.png",
-        "price": 0.02,
+        "price": 9,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "stp eventpack2"
+    },
+    "P-034B": {
+        "code": "P-034B",
+        "name": "Sanji",
+        "rarity": "P",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/P/P-034B.jpg",
+        "price": 18,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp championship participant"
     },
     "P-035": {
         "code": "P-035",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-035.png",
-        "price": 0.02,
+        "price": 1,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "piratesparty3"
     },
     "P-036": {
         "code": "P-036",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["yellow"],
         "image": "../../../assets/Cards/P/P-036.png",
-        "price": 0.02,
+        "price": 1.79,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "prerelease"
+    },
+    "P-036B": {
+        "code": "P-036B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["yellow"],
+        "image": "../../../assets/Cards/P/P-036B.jpg",
+        "price": 64,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "prerelease winner"
     },
     "P-037": {
         "code": "P-037",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-037.png",
-        "price": 0.02,
+        "price": 42,
         "stock": 0,
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "P-037B": {
+        "code": "P-037B",
+        "name": "Monkey D. Luffy Holo",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-037B.jpg",
+        "price": 4,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "holo"
+    },
+    "P-037C": {
+        "code": "P-037C",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-037C.jpg",
+        "price": 2.5,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp"
     },
     "P-038": {
         "code": "P-038",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Trafalgar Law",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-038.png",
-        "price": 0.02,
+        "price": 5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-039": {
         "code": "P-039",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Bellamy",
+        "rarity": "P",
+        "colors": ["yellow"],
         "image": "../../../assets/Cards/P/P-039.png",
-        "price": 0.02,
+        "price": 1.4,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "piratesparty4"
     },
     "P-040": {
         "code": "P-040",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Kaido",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-040.png",
-        "price": 0.02,
+        "price": 7,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-041": {
         "code": "P-041",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-041.png",
-        "price": 0.02,
+        "price": 7,
         "stock": 0,
         "collection": false,
         "special": false,
         "specialDescription": ""
+    },
+    "P-041B": {
+        "code": "P-041B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/P/P-041B.jpg",
+        "price": 199,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "bandaifest"
+    },
+    "P-041C": {
+        "code": "P-041C",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["purple"],
+        "image": "../../../assets/Cards/P/P-041C.jpg",
+        "price": 470,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "stp winner"
     },
     "P-042": {
         "code": "P-042",
-        "name": "",
-        "rarity": "",   
-        "colors": [],
+        "name": "Roronoa Zoro",
+        "rarity": "P",   
+        "colors": ["yellow"],
         "image": "../../../assets/Cards/P/P-042.png",
-        "price": 0.02,
+        "price": 9.85,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-043": {
         "code": "P-043",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-043.png",
-        "price": 0.02,
+        "price": 6,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-044": {
         "code": "P-044",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Sabo",
+        "rarity": "P",
+        "colors": ["red"],
         "image": "../../../assets/Cards/P/P-044.png",
-        "price": 0.02,
+        "price": 5.89,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-045": {
         "code": "P-045",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Roronoa Zoro",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-045.png",
-        "price": 0.02,
+        "price": 4.9,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-046": {
         "code": "P-046",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Yamato",
+        "rarity": "P",
+        "colors": ["purple"],
         "image": "../../../assets/Cards/P/P-046.png",
-        "price": 0.02,
+        "price": 11.9,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-047": {
         "code": "P-047",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-047.png",
-        "price": 0.02,
+        "price": 40,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-048": {
         "code": "P-048",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Arlong",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-048.png",
-        "price": 0.02,
+        "price": 13.5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-049": {
         "code": "P-049",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Usopp",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-049.png",
-        "price": 0.02,
+        "price": 14,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-050": {
         "code": "P-050",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Sanji",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-050.png",
-        "price": 0.02,
+        "price": 12,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-051": {
         "code": "P-051",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Shanks",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-051.png",
-        "price": 0.02,
+        "price": 10,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-052": {
         "code": "P-052",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Dracule Mihawk",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-052.png",
-        "price": 0.02,
+        "price": 6,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-053": {
         "code": "P-053",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Nami",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-053.png",
-        "price": 0.02,
+        "price": 38,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-054": {
         "code": "P-054",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Garp",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-054.png",
-        "price": 0.02,
+        "price": 24,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-055": {
         "code": "P-055",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-055.png",
-        "price": 0.02,
+        "price": 40,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-056": {
         "code": "P-056",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Roronoa Zoro",
+        "rarity": "P",
+        "colors": ["blue"],
         "image": "../../../assets/Cards/P/P-056.png",
-        "price": 0.02,
+        "price": 19,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "P-057": {
         "code": "P-057",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Fleeting Lullaby",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-057.png",
-        "price": 0.02,
+        "price": 23,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utabattle"
     },
     "P-058": {
         "code": "P-058",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Where The Wind Blows",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-058.png",
-        "price": 0.02,
+        "price": 29,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utabattle"
     },
     "P-059": {
         "code": "P-059",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "The World's Continuation",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-059.png",
-        "price": 0.02,
+        "price": 13,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utabattle"
     },
     "P-060": {
         "code": "P-060",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Tot Musica",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-060.png",
-        "price": 0.02,
+        "price": 14,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utabattle"
     },
     "P-061": {
         "code": "P-061",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-061.png",
-        "price": 0.02,
+        "price": 20,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "utabattle"
+    },
+    "P-061B": {
+        "code": "P-061B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["green"],
+        "image": "../../../assets/Cards/P/P-061B.jpg",
+        "price": 170,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "utabattle winner"
     },
     "P-062": {
         "code": "P-062",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Hody & Hyouzou",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-062.png",
-        "price": 0.02,
+        "price": 3.5,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-063": {
         "code": "P-063",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Jinbe",
+        "rarity": "P",
+        "colors": ["green"],
         "image": "../../../assets/Cards/P/P-063.png",
-        "price": 0.02,
+        "price": 3.9,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-064": {
         "code": "P-064",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Momonosuke",
+        "rarity": "P",
+        "colors": ["yellow"],
         "image": "../../../assets/Cards/P/P-064.png",
-        "price": 0.02,
+        "price": 4.75,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-065": {
         "code": "P-065",
-        "name": "",
-        "rarity": "",
-        "colors": [],
+        "name": "Tony Tony Chopper",
+        "rarity": "P",
+        "colors": ["black"],
         "image": "../../../assets/Cards/P/P-065.png",
-        "price": 0.02,
+        "price": 32.95,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "japan"
     },
     "P-999": {
         "code": "P-999",
-        "name": "",
-        "rarity": "",
-        "colors": [],
-        "image": "../../../assets/Cards/P/P-999.png",
-        "price": 0.02,
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red", "green", "blue", "purple", "black", "yellow"],
+        "image": "../../../assets/Cards/P/P-999.jpg",
+        "price": 8,
         "stock": 0,
         "collection": false,
-        "special": false,
-        "specialDescription": ""
+        "special": true,
+        "specialDescription": "sealedbattle1"
+    },
+    "P-999B": {
+        "code": "P-999B",
+        "name": "Monkey D. Luffy",
+        "rarity": "P",
+        "colors": ["red", "green", "blue", "purple", "black", "yellow"],
+        "image": "../../../assets/Cards/P/P-999B.jpg",
+        "price": 3,
+        "stock": 0,
+        "collection": false,
+        "special": true,
+        "specialDescription": "sealedbattle1"
     },
     "DON-ST": {
         "code": "DON-ST",
@@ -13089,7 +16713,7 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "unnumbered"
+        "specialDescription": "store2"
     },
     "UP01W-DON": {
         "code": "UP01W-DON",
@@ -13101,7 +16725,7 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "unnumbered winner"
+        "specialDescription": "store2 winner"
     },
     "G5-DON": {
         "code": "G5-DON",
@@ -13113,7 +16737,7 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "only japan"
+        "specialDescription": "japan"
     },
     "1STA-DON": {
         "code": "1STA-DON",
@@ -13161,7 +16785,7 @@
         "stock": 0,
         "collection": false,
         "special": true,
-        "specialDescription": "only japan"
+        "specialDescription": "japan"
     },
     "UP01C-DON": {
         "code": "UP01C-DON",
