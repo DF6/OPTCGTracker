@@ -20,18 +20,24 @@
 </div>
 
 <div class="content" role="main">
-  <!--<span *ngIf="showFilterButtons">Filtros aplicados - {{this.filtersStr}}</span>-->
-  <h4 *ngIf="showFilterButtons">Expansiones</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <div class="tab-container" *ngIf="showFilterButtons">
+    <div class="tab-nav">
+      <div class="tab-item" *ngFor="let tab of tabs"> 
+        <span (click)="activateTab(tab)">{{tab.tabName}}</span>
+      </div>
+    </div>
+  </div>
+  
+  <h4 *ngIf="showFilterButtons && tabs[0].show">Expansiones</h4>
+  <div *ngIf="showFilterButtons && tabs[0].show" class="card-container button-size">
     <filter-button text="OP-01" (click)="toggleFilter('OP01', $event)"></filter-button>
     <filter-button text="OP-02" (click)="toggleFilter('OP02', $event)"></filter-button>
     <filter-button text="OP-03" (click)="toggleFilter('OP03', $event)"></filter-button>
     <filter-button text="OP-04" (click)="toggleFilter('OP04', $event)"></filter-button>
     <filter-button text="OP-05" (click)="toggleFilter('OP05', $event)"></filter-button>
   </div>
-
-  <h4 *ngIf="showFilterButtons">Starter Decks</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <h4 *ngIf="showFilterButtons && tabs[1].show">Starter Decks</h4>
+  <div *ngIf="showFilterButtons && tabs[1].show" class="card-container button-size">
     <filter-button text="ST-01" (click)="toggleFilter('ST01', $event)"></filter-button>
     <filter-button text="ST-02" (click)="toggleFilter('ST02', $event)"></filter-button>
     <filter-button text="ST-03" (click)="toggleFilter('ST03', $event)"></filter-button>
@@ -45,8 +51,8 @@
     <filter-button text="ST-11" (click)="toggleFilter('ST11', $event)"></filter-button>
   </div>
 
-  <h4 *ngIf="showFilterButtons">Colores</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <h4 *ngIf="showFilterButtons && tabs[2].show">Colores</h4>
+  <div *ngIf="showFilterButtons && tabs[2].show" class="card-container button-size">
     <filter-button text="Rojo" (click)="toggleFilter('red', $event)"></filter-button>
     <filter-button text="Verde" (click)="toggleFilter('green', $event)"></filter-button>
     <filter-button text="Azul" (click)="toggleFilter('blue', $event)"></filter-button>
@@ -55,8 +61,8 @@
     <filter-button text="Amarillo" (click)="toggleFilter('yellow', $event)"></filter-button>
   </div>
   
-  <h4 *ngIf="showFilterButtons">Rarezas</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <h4 *ngIf="showFilterButtons && tabs[3].show">Rarezas</h4>
+  <div *ngIf="showFilterButtons && tabs[3].show" class="card-container button-size">
     <filter-button text="C" (click)="toggleFilter('C', $event)"></filter-button>
     <filter-button text="UC" (click)="toggleFilter('UC', $event)"></filter-button>
     <filter-button text="R" (click)="toggleFilter('R', $event)"></filter-button>
@@ -67,8 +73,8 @@
     <filter-button text="Promo" (click)="toggleFilter('P', $event)"></filter-button>
   </div>
   
-  <h4 *ngIf="showFilterButtons">Altered</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <h4 *ngIf="showFilterButtons && tabs[4].show">Altered</h4>
+  <div *ngIf="showFilterButtons && tabs[4].show" class="card-container button-size">
     <filter-button text="AA" (click)="toggleFilter('alternative', $event)"></filter-button>
     <filter-button text="No AA" (click)="toggleFilter('noAA', $event)"></filter-button>
     <filter-button text="Judge" (click)="toggleFilter('judge', $event)"></filter-button>
@@ -80,8 +86,8 @@
     <filter-button text="Store" (click)="toggleFilter('store', $event)"></filter-button>
   </div>
 
-  <h4 *ngIf="showFilterButtons">Especiales</h4>
-  <div *ngIf="showFilterButtons" class="card-container button-size">
+  <h4 *ngIf="showFilterButtons && tabs[5].show">Especiales</h4>
+  <div *ngIf="showFilterButtons && tabs[5].show" class="card-container button-size">
     <filter-button text="Manga" (click)="toggleFilter('manga', $event)"></filter-button>
     <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
     <filter-button text="Wanted" (click)="toggleFilter('wanted', $event)"></filter-button>

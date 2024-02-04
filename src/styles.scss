@@ -85,6 +85,27 @@
     margin-bottom: 0 !important;
   }
 
+  .tab-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tab-item {
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 8px;
+  }
+
+  .tab-container {
+    h4 {
+      margin: 0 auto;
+      margin-bottom: 8px;
+      width: fit-content;
+    }
+  }
+
   .card {
     all: unset;
     border-radius: 4px;

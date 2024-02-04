@@ -1,6 +1,95 @@
 import { Component, OnInit } from '@angular/core';
 import * as cardData from '../assets/cardData.json';
 
+const existingTabs: any[] = [
+  {
+    tabName: 'Expansiones',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="OP-01" (click)="toggleFilter('OP01', $event)"></filter-button>
+      <filter-button text="OP-02" (click)="toggleFilter('OP02', $event)"></filter-button>
+      <filter-button text="OP-03" (click)="toggleFilter('OP03', $event)"></filter-button>
+      <filter-button text="OP-04" (click)="toggleFilter('OP04', $event)"></filter-button>
+      <filter-button text="OP-05" (click)="toggleFilter('OP05', $event)"></filter-button>
+    </div>`
+  },
+  {
+    tabName: 'Starter Decks',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="ST-01" (click)="toggleFilter('ST01', $event)"></filter-button>
+      <filter-button text="ST-02" (click)="toggleFilter('ST02', $event)"></filter-button>
+      <filter-button text="ST-03" (click)="toggleFilter('ST03', $event)"></filter-button>
+      <filter-button text="ST-04" (click)="toggleFilter('ST04', $event)"></filter-button>
+      <filter-button text="ST-05" (click)="toggleFilter('ST05', $event)"></filter-button>
+      <filter-button text="ST-06" (click)="toggleFilter('ST06', $event)"></filter-button>
+      <filter-button text="ST-07" (click)="toggleFilter('ST07', $event)"></filter-button>
+      <filter-button text="ST-08" (click)="toggleFilter('ST08', $event)"></filter-button>
+      <filter-button text="ST-09" (click)="toggleFilter('ST09', $event)"></filter-button>
+      <filter-button text="ST-10" (click)="toggleFilter('ST10', $event)"></filter-button>
+      <filter-button text="ST-11" (click)="toggleFilter('ST11', $event)"></filter-button>
+    </div>`
+  },
+  {
+    tabName: 'Colores',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="Rojo" (click)="toggleFilter('red', $event)"></filter-button>
+      <filter-button text="Verde" (click)="toggleFilter('green', $event)"></filter-button>
+      <filter-button text="Azul" (click)="toggleFilter('blue', $event)"></filter-button>
+      <filter-button text="Morado" (click)="toggleFilter('purple', $event)"></filter-button>
+      <filter-button text="Negro" (click)="toggleFilter('black', $event)"></filter-button>
+      <filter-button text="Amarillo" (click)="toggleFilter('yellow', $event)"></filter-button>
+    </div>`
+  },
+  {
+    tabName: 'Rarezas',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="C" (click)="toggleFilter('C', $event)"></filter-button>
+      <filter-button text="UC" (click)="toggleFilter('UC', $event)"></filter-button>
+      <filter-button text="R" (click)="toggleFilter('R', $event)"></filter-button>
+      <filter-button text="SR" (click)="toggleFilter('SR', $event)"></filter-button>
+      <filter-button text="SEC" (click)="toggleFilter('SEC', $event)"></filter-button>
+      <filter-button text="L" (click)="toggleFilter('L', $event)"></filter-button>
+      <filter-button text="DON" (click)="toggleFilter('DON', $event)"></filter-button>
+      <filter-button text="Promo" (click)="toggleFilter('P', $event)"></filter-button>
+    </div>`
+  },
+  {
+    tabName: 'Altered',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="AA" (click)="toggleFilter('alternative', $event)"></filter-button>
+      <filter-button text="No AA" (click)="toggleFilter('noAA', $event)"></filter-button>
+      <filter-button text="Judge" (click)="toggleFilter('judge', $event)"></filter-button>
+      <filter-button text="Boxtopper" (click)="toggleFilter('boxtopper', $event)"></filter-button>
+      <filter-button text="Pre-release" (click)="toggleFilter('prerelease', $event)"></filter-button>
+      <filter-button text="Championship" (click)="toggleFilter('championship', $event)"></filter-button>
+      <filter-button text="STP" (click)="toggleFilter('stp', $event)"></filter-button>
+      <filter-button text="Regionals" (click)="toggleFilter('regional', $event)"></filter-button>
+      <filter-button text="Store" (click)="toggleFilter('store', $event)"></filter-button>
+    </div>`
+  },
+  {
+    tabName: 'Especiales',
+    show: false,
+    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
+      <filter-button text="Manga" (click)="toggleFilter('manga', $event)"></filter-button>
+      <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
+      <filter-button text="Wanted" (click)="toggleFilter('wanted', $event)"></filter-button>
+      <filter-button text="01 Reprint" (click)="toggleFilter('reprint', $event)"></filter-button>
+      <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
+      <filter-button text="04 Dash" (click)="toggleFilter('04dash', $event)"></filter-button>
+      <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
+      <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
+      <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
+      <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
+      <filter-button text="Solo Japón" (click)="toggleFilter('japan', $event)"></filter-button>
+    </div>`
+  },
+];
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,6 +97,8 @@ import * as cardData from '../assets/cardData.json';
 })
 export class AppComponent implements OnInit{
   data: any = JSON.parse(JSON.stringify(cardData));
+  tabs: any = existingTabs;
+  activeComponent: any = this.tabs.first;
   filters: any = {
     OP01: false,
     OP02: false,
@@ -41,6 +132,11 @@ export class AppComponent implements OnInit{
     this.data = Object.values(this.data);
     this.data.pop();
     this.estimateCards();
+    this.activeComponent = this.tabs.first;
+  }
+
+  activateTab(tab: any) {
+    tab.show = !tab.show;
   }
 
   saveData(data: any, fileName: any) {
