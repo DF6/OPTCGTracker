@@ -1,6 +1,6 @@
-<a class="card card-data">
+<a class="card card-data" [style.display]="mode === 'collection' ? 'flex' : 'none'">
     <h2>{{card.name}} - {{card.code}}</h2>
-    <img src="{{card.image}}" width="200" height="280" loading="lazy"/>
+    <img src="{{card.image}}" width="200" height="280" loading="lazy" (click)="changeSelectionMode(card.rarity)"/>
     <div class="control-panel">
         <label class="pill-list-item">
             <input type="checkbox" class="{{card.code}}" ng-value="card.collection" (change)="changeCollection()" #collectionInput/>
@@ -15,6 +15,27 @@
                 <span class="data-labels">
                     <span class="title-2">Precio</span>
                     <input type="number" width="20" ng-value="card.price" (change)="changePrice()" #priceInput/>€
+                </span>
+            </section>
+        </div>
+    </div>
+</a>
+<a class="card card-data" [style.display]="mode === 'deck' ? 'flex' : 'none'" (click)="chooseDeck(card)">
+    <h2>{{card.name}} - {{card.code}}</h2>
+    <img src="{{card.image}}" width="200" height="280" loading="lazy"/>
+</a>
+<a class="card card-data" [style.display]="mode === 'selection' ? 'flex' : 'none'">
+    <h2>{{card.name}} - {{card.code}}</h2>
+    <span (click)="changeSelectionMode(card.rarity)">Volver</span>
+    <div class="control-panel-deck">
+        <label class="pill-list-item" *ngFor="let deck of objectKeys(deckData)">
+            <input *ngIf="deck !== 'default'" type="checkbox" class="{{deck}}-{{card.code}}" (click)="changeSelection(deck, card.code)"/>
+            <span *ngIf="deck !== 'default'" class="pill-list-label">{{deck}}</span>
+        </label>
+        <div>
+            <section class="card-labels">
+                <span class="data-labels">
+                    <span class="title">Copias - </span>
                 </span>
             </section>
         </div>

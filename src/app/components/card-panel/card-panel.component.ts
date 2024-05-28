@@ -7,20 +7,36 @@ import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnInit, Outp
 })
 export class CardPanelComponent implements OnInit, AfterViewInit {
     @Input() card: any;
+    @Input() mode: any;
+    @Input() deckData: any;
     @Output() stockEv = new EventEmitter();
     @Output() priceEv = new EventEmitter();
     @Output() collectionEv = new EventEmitter();
+    @Output() selectionEv = new EventEmitter();
+    @Output() copiesEv = new EventEmitter();
+    @Output() chosenDeckEv = new EventEmitter<string>();
     @ViewChild('stockInput') stockInput!: ElementRef;
     @ViewChild('priceInput') priceInput!: ElementRef;
     @ViewChild('collectionInput') collectionInput!: ElementRef;
+    @ViewChild('selectionInput') selectionInput!: ElementRef;
+    @ViewChild('copiesInput') copiesInput!: ElementRef;
+    leaders: string[] = [];
+    objectKeys = Object.keys;
+    el = ElementRef;
 
     ngOnInit() {
     }
 
     ngAfterViewInit() {
-      this.stockInput.nativeElement.value = this.card.stock;
-      this.priceInput.nativeElement.value = this.card.price;
-      this.collectionInput.nativeElement.checked = this.card.collection;
+      if (this.mode === 'collection') {
+        this.stockInput.nativeElement.value = this.card.stock;
+        this.priceInput.nativeElement.value = this.card.price;
+        this.collectionInput.nativeElement.checked = this.card.collection;
+      } else if (this.mode === 'selection') {
+        Object.keys(this.deckData).forEach((leader) => {
+          this.leaders.push(leader);
+        });
+      }
     }
 
     changeStock() {
@@ -36,5 +52,31 @@ export class CardPanelComponent implements OnInit, AfterViewInit {
     changeCollection() {
       this.card.collection = this.collectionInput.nativeElement.checked;
       this.collectionEv.emit();
+    }
+
+    changeSelection(leader: string, card: string) {
+      this.selectionEv.emit({leader, card});
+    }
+
+    changeSelectionMode(rarity: string) {
+      if (rarity === 'L') {
+        return;
+      }
+      switch (this.mode) {
+        case 'collection': this.mode = 'selection';
+          break;
+        case 'selection': this.mode = 'collection';
+          break;
+        default:
+          break;
+      }
+    }
+
+    changeCopies(leader: string, card: string) {
+      this.copiesEv.emit({leader, card, copies: this.copiesInput.nativeElement.value});
+    }
+
+    chooseDeck(card: any) {
+      this.chosenDeckEv.emit(card);
     }
 }
