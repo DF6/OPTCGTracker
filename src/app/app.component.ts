@@ -84,8 +84,8 @@ const existingTabs: any[] = [
       <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
       <filter-button text="Wanted" (click)="toggleFilter('wanted', $event)"></filter-button>
       <filter-button text="01 Reprint" (click)="toggleFilter('reprint', $event)"></filter-button>
-      <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
       <filter-button text="04 Dash" (click)="toggleFilter('04dash', $event)"></filter-button>
+      <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
       <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
       <filter-button text="06 Specials" (click)="toggleFilter('colourful', $event)"></filter-button>
       <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
