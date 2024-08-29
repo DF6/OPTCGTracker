@@ -13,6 +13,7 @@ const existingTabs: any[] = [
       <filter-button text="OP-04" (click)="toggleFilter('OP04', $event)"></filter-button>
       <filter-button text="OP-05" (click)="toggleFilter('OP05', $event)"></filter-button>
       <filter-button text="OP-06" (click)="toggleFilter('OP06', $event)"></filter-button>
+      <filter-button text="OP-07" (click)="toggleFilter('OP07', $event)"></filter-button>
       <filter-button text="EB-01" (click)="toggleFilter('EB01', $event)"></filter-button>
     </div>`
   },
@@ -88,6 +89,7 @@ const existingTabs: any[] = [
       <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
       <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
       <filter-button text="06 Specials" (click)="toggleFilter('colourful', $event)"></filter-button>
+      <filter-button text="07 Specials" (click)="toggleFilter('festive', $event)"></filter-button>
       <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
       <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
       <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
@@ -272,6 +274,7 @@ export class AppComponent implements OnInit{
           case 'OP04':
           case 'OP05':
           case 'OP06':
+          case 'OP07':
           case 'EB01':
           case 'ST01': 
           case 'ST02':
@@ -331,6 +334,7 @@ export class AppComponent implements OnInit{
           case 'disney':
           case 'ugly':
           case 'colourful':
+          case 'festive':
           case 'oda':
           case 'japan':
           case 'stp':
