@@ -34,6 +34,7 @@ const existingTabs: any[] = [
       <filter-button text="ST-11" (click)="toggleFilter('ST11', $event)"></filter-button>
       <filter-button text="ST-12" (click)="toggleFilter('ST12', $event)"></filter-button>
       <filter-button text="ST-13" (click)="toggleFilter('ST13', $event)"></filter-button>
+      <filter-button text="ST-14" (click)="toggleFilter('ST14', $event)"></filter-button>
     </div>`
   },
   {
@@ -94,6 +95,7 @@ const existingTabs: any[] = [
       <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
       <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
       <filter-button text="Solo Japón" (click)="toggleFilter('japan', $event)"></filter-button>
+      <filter-button text="4+ Stock" (click)="toggleFilter('stock', $event)"></filter-button>
     </div>`
   },
 ];
@@ -115,6 +117,8 @@ export class AppComponent implements OnInit{
     OP05: false,
     OP06: false,
     EB01: false,
+    OP07: false,
+    OP08: false,
     red: false,
     green: false,
     blue: false,
@@ -133,6 +137,7 @@ export class AppComponent implements OnInit{
   }
   estimatedValue: any = {
     decks: 0,
+    stock: 0,
     collection: 0,
     noCollection: 0,
     withCollection: 0
@@ -167,12 +172,14 @@ export class AppComponent implements OnInit{
   estimateCards() {
     this.estimatedValue = {
       decks: 0,
+      stock: 0,
       collection: 0,
       noCollection: 0,
       withCollection: 0
     };
     this.data.forEach((card: any) => {
       this.estimatedValue.noCollection += card.price * card.stock;
+      this.estimatedValue.stock += card.stock;
       card.collection ? this.estimatedValue.withCollection += card.price * (parseInt(card.stock) + 1) : this.estimatedValue.withCollection += card.price * card.stock;
     })
     this.estimatedValue.noCollection = Number(this.estimatedValue.noCollection.toFixed(2));
@@ -276,6 +283,7 @@ export class AppComponent implements OnInit{
           case 'OP06':
           case 'OP07':
           case 'EB01':
+          case 'OP08':
           case 'ST01': 
           case 'ST02':
           case 'ST03':
@@ -289,6 +297,7 @@ export class AppComponent implements OnInit{
           case 'ST11':
           case 'ST12':
           case 'ST13':
+          case 'ST14':
             if (response && !card.code.includes(filterKey)) {
               response = false;
               discarded = true;
@@ -345,6 +354,7 @@ export class AppComponent implements OnInit{
           case 'regional':
           case '04dash':
           case 'store':
+          case 'mandala':
             if (response && !(card.special && card.specialDescription.includes(filterKey))) {
               response = false;
               discarded = true;
@@ -359,6 +369,14 @@ export class AppComponent implements OnInit{
             };
             if (!response && !card.special) { response = true };
             if (!response && card.special) { discarded = true };
+            break;
+          case 'stock':
+            if (response && card.stock <= 4) {
+              response = false;
+              discarded = true;
+            };
+            if (!response && card.stock > 4) { response = true };
+            if (!response && card.stock <= 4) { discarded = true };
             break;
         }
       }

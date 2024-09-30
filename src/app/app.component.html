@@ -18,6 +18,7 @@
   </a>
   <div class="spacer"></div>
   <h5>Valor mazos - {{estimatedValue.decks}}€</h5>
+  <h5>Stock cartas - {{estimatedValue.stock}}</h5>
   <h5>Valor colección - {{estimatedValue.collection}}€</h5>
   <h5>Valor sin colección - {{estimatedValue.noCollection}}€</h5>
   <h5>Valor completo - {{estimatedValue.withCollection}}€</h5>
@@ -45,6 +46,7 @@
     <filter-button text="OP-06" (click)="toggleFilter('OP06', $event)"></filter-button>
     <filter-button text="OP-07" (click)="toggleFilter('OP07', $event)"></filter-button>
     <filter-button text="EB-01" (click)="toggleFilter('EB01', $event)"></filter-button>
+    <filter-button text="OP-08" (click)="toggleFilter('OP08', $event)"></filter-button>
   </div>
   <h4 *ngIf="!showDecks && showFilterButtons && tabs[1].show">Starter Decks</h4>
   <div *ngIf="!showDecks && showFilterButtons && tabs[1].show" class="card-container button-size">
@@ -61,6 +63,7 @@
     <filter-button text="ST-11" (click)="toggleFilter('ST11', $event)"></filter-button>
     <filter-button text="ST-12" (click)="toggleFilter('ST12', $event)"></filter-button>
     <filter-button text="ST-13" (click)="toggleFilter('ST13', $event)"></filter-button>
+    <filter-button text="ST-14" (click)="toggleFilter('ST14', $event)"></filter-button>
   </div>
 
   <h4 *ngIf="!showDecks && showFilterButtons && tabs[2].show">Colores</h4>
@@ -109,10 +112,12 @@
     <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
     <filter-button text="06 Specials" (click)="toggleFilter('colourful', $event)"></filter-button>
     <filter-button text="07 Specials" (click)="toggleFilter('festive', $event)"></filter-button>
+    <filter-button text="08 Specials" (click)="toggleFilter('mandala', $event)"></filter-button>
     <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
     <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
     <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
     <filter-button text="Solo Japón" (click)="toggleFilter('japan', $event)"></filter-button>
+    <filter-button text="4+ Stock" (click)="toggleFilter('stock', $event)"></filter-button>
   </div>
 
   <div *ngIf="!showDecks" class="card-container">
