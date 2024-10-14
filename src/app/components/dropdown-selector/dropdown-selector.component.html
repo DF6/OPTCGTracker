@@ -1,0 +1,5 @@
+<label class="dropdown-label">Añadir</label>
+<select (change)="onSelectionChange($event)" class="mySelect" panelClass="dropDown-overlay dropDown-list">
+    <option class="drop-down-option" [disabled]="true" [value]="-1">Líder</option>
+    <option class="drop-down-option" *ngFor="let item of dropDownList" [value]="item[valueField]">{{item[labelField]}}</option>
+</select>

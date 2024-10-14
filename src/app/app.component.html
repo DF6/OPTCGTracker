@@ -4,10 +4,12 @@
     alt="OPTCG Logo"
     src="../assets/optcglogo.svg"
   />
-  <span>OPTCG Tracker</span>
   <div class="spacer"></div>
   <a class="card" (click)="parseCollectionData()">
     <span>Guardar colección</span>
+  </a>
+  <a class="card toggle-filter-button" (click)="parseDeckData()">
+    <span>Guardar Mazos</span>
   </a>
   <div class="spacer"></div>
   <a class="card toggle-filter-button" (click)="toggleFilterButtons()">
@@ -16,17 +18,21 @@
   <a class="card toggle-filter-button" (click)="toggleDecks()">
     <span>Mazos</span>
   </a>
+  <a class="card toggle-filter-button" (click)="toggleCalc()">
+    <span>Calc</span>
+  </a>
   <div class="spacer"></div>
-  <h5>Valor mazos - {{estimatedValue.decks}}€</h5>
-  <h5>Stock cartas - {{estimatedValue.stock}}</h5>
-  <h5>Valor colección - {{estimatedValue.collection}}€</h5>
-  <h5>Valor sin colección - {{estimatedValue.noCollection}}€</h5>
-  <h5>Valor completo - {{estimatedValue.withCollection}}€</h5>
+  <h5>Valor mazos {{estimatedValue.decks}}€</h5>
+  <h5>Stock sobrante {{estimatedValue.spareStock}}</h5>
+  <h5>Stock mazos {{estimatedValue.deckStock}}</h5>
+  <h5>Valor colección {{estimatedValue.collection}}€</h5>
+  <h5>Valor sin colección {{estimatedValue.noCollection}}€</h5>
+  <h5>Valor completo {{estimatedValue.withCollection}}€</h5>
   <div class="spacer-mini"></div>
 </div>
 
 <div class="content" role="main">
-  <div class="tab-container" *ngIf="!showDecks && showFilterButtons">
+  <div class="tab-container" *ngIf="showFilterButtons">
     <div class="tab-nav">
       <div class="tab-item" *ngFor="let tab of tabs"> 
         <a class="card toggle-filter-button" (click)="activateTab(tab)">
@@ -36,8 +42,8 @@
     </div>
   </div>
   
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[0].show">Expansiones</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[0].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[0].show">Expansiones</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[0].show" class="card-container button-size">
     <filter-button text="OP-01" (click)="toggleFilter('OP01', $event)"></filter-button>
     <filter-button text="OP-02" (click)="toggleFilter('OP02', $event)"></filter-button>
     <filter-button text="OP-03" (click)="toggleFilter('OP03', $event)"></filter-button>
@@ -48,8 +54,8 @@
     <filter-button text="EB-01" (click)="toggleFilter('EB01', $event)"></filter-button>
     <filter-button text="OP-08" (click)="toggleFilter('OP08', $event)"></filter-button>
   </div>
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[1].show">Starter Decks</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[1].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[1].show">Starter Decks</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[1].show" class="card-container button-size">
     <filter-button text="ST-01" (click)="toggleFilter('ST01', $event)"></filter-button>
     <filter-button text="ST-02" (click)="toggleFilter('ST02', $event)"></filter-button>
     <filter-button text="ST-03" (click)="toggleFilter('ST03', $event)"></filter-button>
@@ -66,8 +72,8 @@
     <filter-button text="ST-14" (click)="toggleFilter('ST14', $event)"></filter-button>
   </div>
 
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[2].show">Colores</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[2].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[2].show">Colores</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[2].show" class="card-container button-size">
     <filter-button text="Rojo" (click)="toggleFilter('red', $event)"></filter-button>
     <filter-button text="Verde" (click)="toggleFilter('green', $event)"></filter-button>
     <filter-button text="Azul" (click)="toggleFilter('blue', $event)"></filter-button>
@@ -76,8 +82,8 @@
     <filter-button text="Amarillo" (click)="toggleFilter('yellow', $event)"></filter-button>
   </div>
   
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[3].show">Rarezas</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[3].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[3].show">Rarezas</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[3].show" class="card-container button-size">
     <filter-button text="C" (click)="toggleFilter('C', $event)"></filter-button>
     <filter-button text="UC" (click)="toggleFilter('UC', $event)"></filter-button>
     <filter-button text="R" (click)="toggleFilter('R', $event)"></filter-button>
@@ -88,8 +94,8 @@
     <filter-button text="Promo" (click)="toggleFilter('P', $event)"></filter-button>
   </div>
   
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[4].show">Altered</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[4].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[4].show">Altered</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[4].show" class="card-container button-size">
     <filter-button text="AA" (click)="toggleFilter('alternative', $event)"></filter-button>
     <filter-button text="No AA" (click)="toggleFilter('noAA', $event)"></filter-button>
     <filter-button text="Judge" (click)="toggleFilter('judge', $event)"></filter-button>
@@ -101,12 +107,10 @@
     <filter-button text="Store" (click)="toggleFilter('store', $event)"></filter-button>
   </div>
 
-  <h4 *ngIf="!showDecks && showFilterButtons && tabs[5].show">Especiales</h4>
-  <div *ngIf="!showDecks && showFilterButtons && tabs[5].show" class="card-container button-size">
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[5].show">Rareza Especial</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[5].show" class="card-container button-size">
     <filter-button text="Manga" (click)="toggleFilter('manga', $event)"></filter-button>
-    <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
     <filter-button text="Wanted" (click)="toggleFilter('wanted', $event)"></filter-button>
-    <filter-button text="01 Reprint" (click)="toggleFilter('reprint', $event)"></filter-button>
     <filter-button text="04 Dash" (click)="toggleFilter('04dash', $event)"></filter-button>
     <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
     <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
@@ -114,40 +118,43 @@
     <filter-button text="07 Specials" (click)="toggleFilter('festive', $event)"></filter-button>
     <filter-button text="08 Specials" (click)="toggleFilter('mandala', $event)"></filter-button>
     <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
+  </div>
+
+  <h4 *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[6].show">Especiales</h4>
+  <div *ngIf="!showDecks && !showCalc && showFilterButtons && tabs[6].show" class="card-container button-size">
+    <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
+    <filter-button text="01 Reprint" (click)="toggleFilter('reprint', $event)"></filter-button>
+    <filter-button text="04 Dash" (click)="toggleFilter('04dash', $event)"></filter-button>
     <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
     <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
     <filter-button text="Solo Japón" (click)="toggleFilter('japan', $event)"></filter-button>
-    <filter-button text="4+ Stock" (click)="toggleFilter('stock', $event)"></filter-button>
+    <filter-button text="4+ Stock" (click)="toggleFilter('stockmore', $event)"></filter-button>
+    <filter-button text="Playset" (click)="toggleFilter('stockless', $event)"></filter-button>
   </div>
 
-  <div *ngIf="!showDecks" class="card-container">
+  <div class="card-container" *ngIf="!showDecks && !showCalc && estimatedValue.spareStock > 0">
     <div *ngFor="let card of data">
       <card-panel
         *ngIf="filterCard(card)"
         [mode]="'collection'"
         [card]="card"
-        [deckData]="decks"
+        [leaders]="leaders"
         (stockEv)="estimateCards()"
         (priceEv)="estimateCards()"
         (collectionEv)="estimateCards()"
+        (deckCopiesEv)="estimateCards()"
       ></card-panel>
     </div>
   </div>
 
-  <div *ngIf="showDecks" class="card-container">
-    <div *ngFor="let card of data">
-      <card-panel
-        *ngIf="card.rarity === 'L' && !card.special"
-        [mode]="'deck'"
-        [card]="card"
-        (stockEv)="estimateCards()"
-        (priceEv)="estimateCards()"
-        (collectionEv)="estimateCards()"
-        (chosenDeckEv)="chooseDeck($event)"
-      ></card-panel>
-    </div>
+  <div class="card-container decklist" *ngIf="showDecks && !showCalc && estimatedValue.spareStock > 0">
+    <div class="decklist-element" *ngFor="let deck of deckInfo" [innerHTML]="deck.deckList"></div>
   </div>
 
+  <div class="card-container deck-input-section" *ngIf="!showDecks && showCalc && estimatedValue.spareStock > 0">
+    <textarea class="deck-input" (change)="updateDeckInput($event)"></textarea>
+    <span [innerHTML]="deckInput"></span>
+  </div>
 
   <svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
     <title>Gray Clouds Background</title>

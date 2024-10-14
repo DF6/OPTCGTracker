@@ -1,102 +1,35 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import * as cardData from '../assets/cardData.json';
 import * as deckData from '../assets/deckData.json';
 
 const existingTabs: any[] = [
   {
     tabName: 'Expansiones',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="OP-01" (click)="toggleFilter('OP01', $event)"></filter-button>
-      <filter-button text="OP-02" (click)="toggleFilter('OP02', $event)"></filter-button>
-      <filter-button text="OP-03" (click)="toggleFilter('OP03', $event)"></filter-button>
-      <filter-button text="OP-04" (click)="toggleFilter('OP04', $event)"></filter-button>
-      <filter-button text="OP-05" (click)="toggleFilter('OP05', $event)"></filter-button>
-      <filter-button text="OP-06" (click)="toggleFilter('OP06', $event)"></filter-button>
-      <filter-button text="OP-07" (click)="toggleFilter('OP07', $event)"></filter-button>
-      <filter-button text="EB-01" (click)="toggleFilter('EB01', $event)"></filter-button>
-    </div>`
+    show: false
   },
   {
     tabName: 'Starter Decks',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="ST-01" (click)="toggleFilter('ST01', $event)"></filter-button>
-      <filter-button text="ST-02" (click)="toggleFilter('ST02', $event)"></filter-button>
-      <filter-button text="ST-03" (click)="toggleFilter('ST03', $event)"></filter-button>
-      <filter-button text="ST-04" (click)="toggleFilter('ST04', $event)"></filter-button>
-      <filter-button text="ST-05" (click)="toggleFilter('ST05', $event)"></filter-button>
-      <filter-button text="ST-06" (click)="toggleFilter('ST06', $event)"></filter-button>
-      <filter-button text="ST-07" (click)="toggleFilter('ST07', $event)"></filter-button>
-      <filter-button text="ST-08" (click)="toggleFilter('ST08', $event)"></filter-button>
-      <filter-button text="ST-09" (click)="toggleFilter('ST09', $event)"></filter-button>
-      <filter-button text="ST-10" (click)="toggleFilter('ST10', $event)"></filter-button>
-      <filter-button text="ST-11" (click)="toggleFilter('ST11', $event)"></filter-button>
-      <filter-button text="ST-12" (click)="toggleFilter('ST12', $event)"></filter-button>
-      <filter-button text="ST-13" (click)="toggleFilter('ST13', $event)"></filter-button>
-      <filter-button text="ST-14" (click)="toggleFilter('ST14', $event)"></filter-button>
-    </div>`
+    show: false
   },
   {
     tabName: 'Colores',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="Rojo" (click)="toggleFilter('red', $event)"></filter-button>
-      <filter-button text="Verde" (click)="toggleFilter('green', $event)"></filter-button>
-      <filter-button text="Azul" (click)="toggleFilter('blue', $event)"></filter-button>
-      <filter-button text="Morado" (click)="toggleFilter('purple', $event)"></filter-button>
-      <filter-button text="Negro" (click)="toggleFilter('black', $event)"></filter-button>
-      <filter-button text="Amarillo" (click)="toggleFilter('yellow', $event)"></filter-button>
-    </div>`
+    show: false
   },
   {
     tabName: 'Rarezas',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="C" (click)="toggleFilter('C', $event)"></filter-button>
-      <filter-button text="UC" (click)="toggleFilter('UC', $event)"></filter-button>
-      <filter-button text="R" (click)="toggleFilter('R', $event)"></filter-button>
-      <filter-button text="SR" (click)="toggleFilter('SR', $event)"></filter-button>
-      <filter-button text="SEC" (click)="toggleFilter('SEC', $event)"></filter-button>
-      <filter-button text="L" (click)="toggleFilter('L', $event)"></filter-button>
-      <filter-button text="DON" (click)="toggleFilter('DON', $event)"></filter-button>
-      <filter-button text="Promo" (click)="toggleFilter('P', $event)"></filter-button>
-    </div>`
+    show: false
   },
   {
     tabName: 'Altered',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="AA" (click)="toggleFilter('alternative', $event)"></filter-button>
-      <filter-button text="No AA" (click)="toggleFilter('noAA', $event)"></filter-button>
-      <filter-button text="Judge" (click)="toggleFilter('judge', $event)"></filter-button>
-      <filter-button text="Boxtopper" (click)="toggleFilter('boxtopper', $event)"></filter-button>
-      <filter-button text="Pre-release" (click)="toggleFilter('prerelease', $event)"></filter-button>
-      <filter-button text="Championship" (click)="toggleFilter('championship', $event)"></filter-button>
-      <filter-button text="STP" (click)="toggleFilter('stp', $event)"></filter-button>
-      <filter-button text="Regionals" (click)="toggleFilter('regional', $event)"></filter-button>
-      <filter-button text="Store" (click)="toggleFilter('store', $event)"></filter-button>
-    </div>`
+    show: false
+  },
+  {
+    tabName: 'Rareza Especial',
+    show: false
   },
   {
     tabName: 'Especiales',
-    show: false,
-    content: `<div *ngIf="showFilterButtons" class="card-container button-size">
-      <filter-button text="Manga" (click)="toggleFilter('manga', $event)"></filter-button>
-      <filter-button text="Numerada" (click)="toggleFilter('limited', $event)"></filter-button>
-      <filter-button text="Wanted" (click)="toggleFilter('wanted', $event)"></filter-button>
-      <filter-button text="01 Reprint" (click)="toggleFilter('reprint', $event)"></filter-button>
-      <filter-button text="04 Dash" (click)="toggleFilter('04dash', $event)"></filter-button>
-      <filter-button text="04 Specials" (click)="toggleFilter('disney', $event)"></filter-button>
-      <filter-button text="05 Specials" (click)="toggleFilter('ugly', $event)"></filter-button>
-      <filter-button text="06 Specials" (click)="toggleFilter('colourful', $event)"></filter-button>
-      <filter-button text="07 Specials" (click)="toggleFilter('festive', $event)"></filter-button>
-      <filter-button text="Anniversary" (click)="toggleFilter('oda', $event)"></filter-button>
-      <filter-button text="Premium" (click)="toggleFilter('premium', $event)"></filter-button>
-      <filter-button text="Winner" (click)="toggleFilter('winner', $event)"></filter-button>
-      <filter-button text="Solo Japón" (click)="toggleFilter('japan', $event)"></filter-button>
-      <filter-button text="4+ Stock" (click)="toggleFilter('stock', $event)"></filter-button>
-    </div>`
+    show: false
   },
 ];
 
@@ -107,8 +40,8 @@ const existingTabs: any[] = [
 })
 export class AppComponent implements OnInit{
   data: any = JSON.parse(JSON.stringify(cardData));
+  deckInfo: any = JSON.parse(JSON.stringify(deckData));
   tabs: any = existingTabs;
-  decks: any = JSON.parse(JSON.stringify(deckData));
   filters: any = {
     OP01: false,
     OP02: false,
@@ -137,20 +70,34 @@ export class AppComponent implements OnInit{
   }
   estimatedValue: any = {
     decks: 0,
-    stock: 0,
+    spareStock: 0,
+    deckStock: 0,
     collection: 0,
     noCollection: 0,
     withCollection: 0
   };
   showFilterButtons: boolean = false;
   showDecks: boolean = false;
+  showCalc: boolean = false;
   filtersStr = '';
+  deckInput = '';
+  leaders: any[] = [];
+  deckLeaders: any[] = [];
+  deckLists: any[] = [];
+
+  constructor(private cdRef:ChangeDetectorRef) {}
 
   ngOnInit() {
     this.data = Object.values(this.data);
     this.data.pop();
+    this.deckInfo = Object.values(this.deckInfo);
+    this.deckInfo.pop();
+    console.log(this.deckInfo);
     this.estimateCards();
-    // this.temporalDeckSaving();
+  }
+
+  ngAfterViewChecked() {
+    this.cdRef.detectChanges();
   }
 
   activateTab(tab: any) {
@@ -172,25 +119,45 @@ export class AppComponent implements OnInit{
   estimateCards() {
     this.estimatedValue = {
       decks: 0,
-      stock: 0,
+      spareStock: 0,
+      deckStock: 0,
       collection: 0,
       noCollection: 0,
       withCollection: 0
     };
     this.data.forEach((card: any) => {
+      if (card.rarity === 'L' && !card.special) {
+        this.leaders.push({ code: card.code, name: card.code + ' ' + card.name });
+      }
+      if (card.deckLeaderOne !== '' && this.deckLeaders.indexOf(card.deckLeaderOne) === -1) {
+        this.deckLeaders.push(card.deckLeaderOne);
+      }
+      if (card.deckLeaderTwo !== '' && this.deckLeaders.indexOf(card.deckLeaderTwo) === -1) {
+        this.deckLeaders.push(card.deckLeaderTwo);
+      }
       this.estimatedValue.noCollection += card.price * card.stock;
-      this.estimatedValue.stock += card.stock;
+      this.estimatedValue.spareStock += Number(card.stock);
+      this.estimatedValue.deckStock += Number(card.deckOneCopies);
+      this.estimatedValue.deckStock += Number(card.deckTwoCopies);
+      this.estimatedValue.decks += card.price * (Number(card.deckOneCopies) + Number(card.deckTwoCopies));
       card.collection ? this.estimatedValue.withCollection += card.price * (parseInt(card.stock) + 1) : this.estimatedValue.withCollection += card.price * card.stock;
-    })
+    });
+    this.deckLeaders.forEach((deckLeader: any) => {
+      this.deckLists[deckLeader] = '';
+    });
+    let deckListsLeaders = Object.keys(this.deckLists);
+    this.data.forEach((card: any) => {
+      if (deckListsLeaders.indexOf(card.deckLeaderOne) !== -1) {
+        this.deckLists[card.deckLeaderOne] += card.deckOneCopies + 'x' + card.code + '<br/>';
+      }
+      if (deckListsLeaders.indexOf(card.deckLeaderTwo) !== -1) {
+        this.deckLists[card.deckLeaderTwo] += card.deckTwoCopies + 'x' + card.code + '<br/>';
+      }
+    });
     this.estimatedValue.noCollection = Number(this.estimatedValue.noCollection.toFixed(2));
     this.estimatedValue.withCollection = Number(this.estimatedValue.withCollection.toFixed(2));
+    this.estimatedValue.decks = Number(this.estimatedValue.decks.toFixed(2));
     this.estimatedValue.collection = (Number(this.estimatedValue.withCollection) - Number(this.estimatedValue.noCollection)).toFixed(2);
-  }
-
-  chooseDeck(card: any) {
-    if (Object.keys(this.decks).includes(card.code)) {
-      alert('HABEMUS MAZO');
-    }
   }
 
   parseCollectionData() {
@@ -204,6 +171,10 @@ export class AppComponent implements OnInit{
         "image": card.image,
         "price": parseFloat(card.price),
         "stock": parseInt(card.stock),
+        "deckLeaderOne": card.deckLeaderOne,
+        "deckOneCopies": parseInt(card.deckOneCopies),
+        "deckLeaderTwo": card.deckLeaderTwo,
+        "deckTwoCopies": parseInt(card.deckTwoCopies),
         "collection": card.collection,
         "special": card.special,
         "specialDescription": card.specialDescription
@@ -212,33 +183,12 @@ export class AppComponent implements OnInit{
     this.saveData(savingData, 'cardData.json');
   }
 
-  temporalDeckSaving() {
-    let deck: string[] = ['1xST01-001',
-    '4xST01-002',
-    '4xST01-003',
-    '4xST01-004',
-    '4xST01-005',
-    '4xST01-006',
-    '4xST01-007',
-    '4xST01-008',
-    '4xST01-009',
-    '4xST01-010',
-    '2xST01-011',
-    '2xST01-012',
-    '2xST01-013',
-    '2xST01-014',
-    '2xST01-015',
-    '2xST01-016',
-    '2xST01-017'];
+  parseDeckData() {
     let savingData: any = {};
-    savingData[deck[0].split('x')[1]] = [];
-    deck.forEach((card: any, index) => {
-      if (index > 0) {
-        savingData[deck[0].split('x')[1]].push({
-          "code": card.split('x')[1],
-          "copies": parseInt(card.split('x')[0])
-        });
-      }
+    Object.keys(this.deckLists).forEach((deck: any) => {
+      savingData[deck] = {
+        "deckList": this.deckLists[deck],
+      };
     });
     this.saveData(savingData, 'deckData.json');
   }
@@ -252,6 +202,14 @@ export class AppComponent implements OnInit{
     this.stringifyFilters();
   }
 
+  toggleDecks() {
+    this.showDecks = !this.showDecks;
+  }
+
+  toggleCalc() {
+    this.showCalc = !this.showCalc;
+  }
+
   stringifyFilters() {
     this.filtersStr = '';
     Object.keys(this.filters).forEach((fil) => {
@@ -263,8 +221,32 @@ export class AppComponent implements OnInit{
     this.showFilterButtons = !this.showFilterButtons;
   }
 
-  toggleDecks() {
-    this.showDecks = !this.showDecks;
+  updateDeckInput(e: any) {
+    this.deckInput = '';
+    const value = e.target.value;
+    let deckToExamine = value.split('\n');
+    let found = undefined;
+    deckToExamine.forEach((card: any) => {
+      found = this.data.find((cardToFind: any) =>{
+        return cardToFind.code === card.split('x')[1];
+      });
+      if (found) {
+        const cardsLeft = Number(card.split('x')[0]) - Number(found.stock) - Number(found.deckOneCopies) - Number(found.deckTwoCopies);
+        if (cardsLeft > 0) {
+          this.deckInput += '<strong class="red">Te faltan - '+ Math.abs(cardsLeft) + ' x</strong> ';
+        } else if (cardsLeft < 0 && found.stock > cardsLeft) {
+          this.deckInput += '<strong class="green">Te sobran</strong> - ';
+        } else if (cardsLeft <= 0 && found.stock <= cardsLeft) {
+          this.deckInput += '<strong class="orange">Tienes, pero en mazo:</strong> - ';
+        } else {
+          this.deckInput += '<strong class="green">Tienes justo</strong> - ';
+        }
+        this.deckInput += '<strong>' + found.name + ' - ' + found.code +
+        '</strong> - En stock: ' + found.stock + ' - En mazo: ' + (Number(found.deckOneCopies) - Number(found.deckTwoCopies)) + '<br/>';
+      } else {
+        if (card.split('x')[1]) { this.deckInput += 'La carta ' + card.split('x')[1] + ' no se encuentra en la base de datos' }
+      }
+    });
   }
 
   filterCard(card: any) {
@@ -370,13 +352,21 @@ export class AppComponent implements OnInit{
             if (!response && !card.special) { response = true };
             if (!response && card.special) { discarded = true };
             break;
-          case 'stock':
+          case 'stockmore':
             if (response && card.stock <= 4) {
               response = false;
               discarded = true;
             };
             if (!response && card.stock > 4) { response = true };
             if (!response && card.stock <= 4) { discarded = true };
+            break;
+          case 'stockless':
+            if (response && card.stock >= 4 || card.rarity === 'L' || card.rarity === 'P' || card.rarity === 'DON' || card.special) {
+              response = false;
+              discarded = true;
+            };
+            if (!response && card.stock < 4 && card.rarity !== 'L' && !card.special) { response = true };
+            if (!response && card.stock >= 4 || card.rarity === 'L' || card.rarity === 'P' || card.rarity === 'DON' || card.special) { discarded = true };
             break;
         }
       }
